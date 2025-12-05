@@ -1,0 +1,5764 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>FCRO Weapon Statistics Documentation - Mod Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.618322db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#fcro-weapon-statistics-documentation" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Mod Documentation" class="md-header__button md-logo" aria-label="Mod Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Mod Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              FCRO Weapon Statistics Documentation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Mod Documentation" class="md-nav__button md-logo" aria-label="Mod Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Mod Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Welcome to MkDocs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FCRO Weapon Statistics Documentation
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FCRO Weapon Statistics Documentation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#frontlines-combat-realism-overhaul-complete-weapon-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frontlines Combat Realism Overhaul - Complete Weapon Reference
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#frontlines-combat-realism-overhaul-complete-weapon-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frontlines Combat Realism Overhaul - Complete Weapon Reference
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="fcro-weapon-statistics-documentation">FCRO Weapon Statistics Documentation</h1>
+<h2 id="frontlines-combat-realism-overhaul-complete-weapon-reference">Frontlines Combat Realism Overhaul - Complete Weapon Reference</h2>
+<p>This document catalogs all weapon ranges, accuracy, and damage values modified by FCRO compared to vanilla.</p>
+<p><strong>Mod Philosophy:</strong> FCRO increases engagement ranges by 20-50% to create more realistic combat distances while maintaining weapon role balance. Damage has been increased to make combat more lethal and decisive.</p>
+<p><strong>Scale Note:</strong> The game uses approximately 8:1 scale. A 180m in-game range represents ~1440m real-world distance.</p>
+<hr />
+<h1 id="quick-reference-range-summary">Quick Reference - Range Summary</h1>
+<table>
+<thead>
+<tr>
+<th>Weapon Type</th>
+<th>Vanilla Range</th>
+<th>FCRO Range</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Infantry Small Arms</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bolt-Action Rifles</td>
+<td>120</td>
+<td>180</td>
+<td>+50%</td>
+</tr>
+<tr>
+<td>Semi-Auto Rifles</td>
+<td>115</td>
+<td>175</td>
+<td>+52%</td>
+</tr>
+<tr>
+<td>Auto Rifles (BAR, etc.)</td>
+<td>100</td>
+<td>155</td>
+<td>+55%</td>
+</tr>
+<tr>
+<td>Submachine Guns</td>
+<td>80</td>
+<td>100</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>Pistols</td>
+<td>70</td>
+<td>85</td>
+<td>+21%</td>
+</tr>
+<tr>
+<td>Light Machine Guns</td>
+<td>110</td>
+<td>140</td>
+<td>+27%</td>
+</tr>
+<tr>
+<td>Heavy Machine Guns</td>
+<td>150</td>
+<td>180</td>
+<td>+20%</td>
+</tr>
+<tr>
+<td>Sniper Rifles (bolt)</td>
+<td>150</td>
+<td>200</td>
+<td>+33%</td>
+</tr>
+<tr>
+<td>Sniper Rifles (semi)</td>
+<td>130</td>
+<td>180</td>
+<td>+38%</td>
+</tr>
+<tr>
+<td><strong>Anti-Tank Weapons</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Anti-Tank Rifles</td>
+<td>130</td>
+<td>160</td>
+<td>+23%</td>
+</tr>
+<tr>
+<td>Bazookas/RPGs</td>
+<td>72</td>
+<td>90</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>Panzerfaust 30</td>
+<td>30</td>
+<td>40</td>
+<td>+33%</td>
+</tr>
+<tr>
+<td>Panzerfaust 60</td>
+<td>40</td>
+<td>55</td>
+<td>+38%</td>
+</tr>
+<tr>
+<td>Panzerfaust 100</td>
+<td>50</td>
+<td>70</td>
+<td>+40%</td>
+</tr>
+<tr>
+<td>Rifle Grenades (HE)</td>
+<td>80</td>
+<td>100</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>Rifle Grenades (HEAT)</td>
+<td>60</td>
+<td>75</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td><strong>Flamethrowers</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Infantry (typical)</td>
+<td>40</td>
+<td>50</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>Vehicle (typical)</td>
+<td>60-80</td>
+<td>75-100</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td><strong>Mortars</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Light (50mm)</td>
+<td>140</td>
+<td>175</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>Medium (81-82mm)</td>
+<td>160</td>
+<td>200</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>Heavy (120mm)</td>
+<td>230</td>
+<td>290</td>
+<td>+26%</td>
+</tr>
+<tr>
+<td><strong>Tank Guns</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Light (37-45mm)</td>
+<td>170</td>
+<td>215</td>
+<td>+26%</td>
+</tr>
+<tr>
+<td>Medium (75-76mm)</td>
+<td>180-190</td>
+<td>225-240</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>Long (76-85mm)</td>
+<td>200</td>
+<td>250</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>Heavy (88-122mm)</td>
+<td>210</td>
+<td>260</td>
+<td>+24%</td>
+</tr>
+<tr>
+<td>Very Long (88mm L/71)</td>
+<td>220</td>
+<td>275</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td><strong>Rocket Artillery</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Katyusha BM-13</td>
+<td>325</td>
+<td>390</td>
+<td>+20%</td>
+</tr>
+<tr>
+<td>Nebelwerfer 150mm</td>
+<td>310</td>
+<td>375</td>
+<td>+21%</td>
+</tr>
+<tr>
+<td>Calliope</td>
+<td>270</td>
+<td>325</td>
+<td>+20%</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="table-of-contents">Table of Contents</h1>
+<ol>
+<li><a href="#infantry-small-arms">Infantry Small Arms</a></li>
+<li><a href="#rifles">Rifles</a></li>
+<li><a href="#sniper-rifles">Sniper Rifles</a></li>
+<li><a href="#submachine-guns">Submachine Guns</a></li>
+<li><a href="#machine-guns">Machine Guns</a></li>
+<li><a href="#pistols">Pistols</a></li>
+<li><a href="#anti-tank-weapons">Anti-Tank Weapons</a></li>
+<li><a href="#anti-tank-rifles">Anti-Tank Rifles</a></li>
+<li><a href="#bazookas--panzerfausts">Bazookas &amp; Panzerfausts</a></li>
+<li><a href="#rifle-grenade-launchers">Rifle Grenade Launchers</a></li>
+<li><a href="#flamethrowers">Flamethrowers</a></li>
+<li><a href="#infantry-flamethrowers">Infantry Flamethrowers</a></li>
+<li><a href="#vehicle-flamethrowers">Vehicle Flamethrowers</a></li>
+<li><a href="#mortars">Mortars</a></li>
+<li><a href="#rocket-artillery">Rocket Artillery</a></li>
+<li><a href="#tank--artillery-guns">Tank &amp; Artillery Guns</a></li>
+<li><a href="#armor-penetration-tables">Armor Penetration Tables</a></li>
+<li><a href="#german-tank-gun-penetration">German Guns</a></li>
+<li><a href="#soviet-tank-gun-penetration">Soviet Guns</a></li>
+<li><a href="#american-tank-gun-penetration">American Guns</a></li>
+<li><a href="#british-tank-gun-penetration">British Guns</a></li>
+<li><a href="#ammunition-types">Ammunition Types</a></li>
+<li><a href="#grenades--explosives">Grenades &amp; Explosives</a></li>
+<li><a href="#hand-grenades">Hand Grenades</a></li>
+<li><a href="#satchel-charges">Satchel Charges</a></li>
+<li><a href="#mines">Mines</a></li>
+<li><a href="#veterancy-system">Veterancy System</a></li>
+<li><a href="#vehicle-damage-system">Vehicle Damage System</a></li>
+<li><a href="#vision--spotting-system">Vision &amp; Spotting System</a><ul>
+<li><a href="#human-spotting-distances">Human Spotting</a></li>
+<li><a href="#vehicle-spotting-categories">Vehicle Spotting</a></li>
+<li><a href="#aircraft-spotting">Aircraft Spotting</a></li>
+</ul>
+</li>
+<li><a href="#faction-weapon-comparisons">Faction Weapon Comparisons</a><ul>
+<li><a href="#submachine-guns-comparison">Submachine Guns</a></li>
+<li><a href="#bolt-action-rifles-comparison">Rifles</a></li>
+<li><a href="#machine-gun-comparison">Machine Guns</a></li>
+<li><a href="#sniper-rifle-comparison">Sniper Rifles</a></li>
+<li><a href="#anti-tank-rifle-comparison">Anti-Tank</a></li>
+<li><a href="#tank-gun-penetration-summary">Tank Guns</a></li>
+</ul>
+</li>
+<li><a href="#accuracy-system-notes">Accuracy System Notes</a></li>
+</ol>
+<hr />
+<h1 id="infantry-small-arms">Infantry Small Arms</h1>
+<h2 id="rifles">Rifles</h2>
+<h3 id="bolt-action-rifles-riflepresets-bolt_action">Bolt-Action Rifles: <code>rifle/.presets</code> → <code>bolt_action</code></h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>120</td>
+<td>180</td>
+<td>+50%</td>
+<td>Matches real rifle capability</td>
+</tr>
+<tr>
+<td>Damage</td>
+<td>70</td>
+<td>110</td>
+<td>+57%</td>
+<td>More lethal</td>
+</tr>
+<tr>
+<td>Fire Rate</td>
+<td>40 rpm</td>
+<td>40 rpm</td>
+<td>------</td>
+<td>Unchanged</td>
+</tr>
+<tr>
+<td>Accuracy Motion Penalty</td>
+<td>-------</td>
+<td>1.2x</td>
+<td>------</td>
+<td>Less accurate while moving</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Zeroing Accuracy Bonus (stationary aiming):</strong></p>
+<pre><code>Shot 1: 95% | Shot 2: 90% | Shot 3: 85% | Shot 4: 82.5% | Shot 5: 80% | Shot 6+: 77.5-70%
+</code></pre>
+<p><strong>Applies to:</strong>
+- Mosin-Nagant M91/30 (Soviet)
+- Kar98k (German)
+- M1903 Springfield, M1917 Enfield (USA)
+- Lee-Enfield No.1 Mk.III, No.4 Mk.I (British)
+- Mosin-Nagant M39 (Finnish)</p>
+<h3 id="semi-automatic-rifles-riflepresets-semi_rifle">Semi-Automatic Rifles: <code>rifle/.presets</code> → <code>semi_rifle</code></h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>120</td>
+<td>180</td>
+<td>+50%</td>
+<td>Same as bolt rifles</td>
+</tr>
+<tr>
+<td>Damage</td>
+<td>70</td>
+<td>110</td>
+<td>+57%</td>
+<td>Same caliber = same damage</td>
+</tr>
+<tr>
+<td>Fire Rate</td>
+<td>150 rpm</td>
+<td>150 rpm</td>
+<td>------</td>
+<td>Unchanged</td>
+</tr>
+<tr>
+<td>Burst Accuracy</td>
+<td>-------</td>
+<td>100→80→60→40%</td>
+<td>------</td>
+<td>Accuracy degrades with rapid fire</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Applies to:</strong>
+- SVT-40 (Soviet)
+- Gewehr 43 (German)
+- M1 Garand, M1 Carbine (USA)</p>
+<h3 id="automatic-rifles-riflepresets-auto_rifle">Automatic Rifles: <code>rifle/.presets</code> → <code>auto_rifle</code></h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>120</td>
+<td>180</td>
+<td>+50%</td>
+<td>Full rifle range</td>
+</tr>
+<tr>
+<td>Damage</td>
+<td>70</td>
+<td>110</td>
+<td>+57%</td>
+<td>Rifle caliber</td>
+</tr>
+<tr>
+<td>Burst Length</td>
+<td>1-2.25 rds</td>
+<td>1-2.25 rds</td>
+<td>------</td>
+<td>Short controlled bursts</td>
+</tr>
+<tr>
+<td>Burst Accuracy</td>
+<td>----------</td>
+<td>100→80→60→40%</td>
+<td>------</td>
+<td>Accuracy degrades with fire</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Applies to:</strong>
+- AVS-36, AVT-40 (Soviet)
+- FG 42 (German)</p>
+<h3 id="individual-rifle-overrides">Individual Rifle Overrides</h3>
+<h4 id="de-lisle-carbine-british-suppressed">De Lisle Carbine (British Suppressed)</h4>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>80</td>
+<td>100</td>
+<td>+25%</td>
+</tr>
+</tbody>
+</table>
+<h4 id="m12-trench-shotgun-usa">M12 Trench Shotgun (USA)</h4>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>50</td>
+<td>65</td>
+<td>+30%</td>
+</tr>
+</tbody>
+</table>
+<h4 id="double-barrel-shotgun">Double Barrel Shotgun</h4>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>50</td>
+<td>65</td>
+<td>+30%</td>
+</tr>
+</tbody>
+</table>
+<h3 id="rifle-accuracy-curve-rifle_range">Rifle Accuracy Curve (<code>rifle_range</code>)</h3>
+<p><em>Spread radius in meters at each distance:</em></p>
+<table>
+<thead>
+<tr>
+<th>Distance</th>
+<th>Spread</th>
+<th>Real-World Equivalent</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0m</td>
+<td>0.02m</td>
+<td>Point blank</td>
+<td>Near-perfect</td>
+</tr>
+<tr>
+<td>40m</td>
+<td>0.2m</td>
+<td>~320m IRL</td>
+<td>Excellent</td>
+</tr>
+<tr>
+<td>80m</td>
+<td>0.4m</td>
+<td>~640m IRL</td>
+<td>Good</td>
+</tr>
+<tr>
+<td>120m</td>
+<td>0.8m</td>
+<td>~960m IRL</td>
+<td>Moderate</td>
+</tr>
+<tr>
+<td>150m</td>
+<td>1.6m</td>
+<td>~1200m IRL</td>
+<td>Degraded</td>
+</tr>
+<tr>
+<td>180m+</td>
+<td>6.0m</td>
+<td>~1440m IRL</td>
+<td>Max range, poor</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="sniper-rifles">Sniper Rifles</h2>
+<h3 id="bolt-action-snipers-sniper_riflepattern">Bolt-Action Snipers: <code>sniper_rifle.pattern</code></h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>130</td>
+<td>200</td>
+<td>+54%</td>
+<td>Outranges all other infantry</td>
+</tr>
+<tr>
+<td>Damage</td>
+<td>100</td>
+<td>130</td>
+<td>+30%</td>
+<td>One-shot kills guaranteed</td>
+</tr>
+<tr>
+<td>Fire Rate</td>
+<td>24 rpm</td>
+<td>24 rpm</td>
+<td>------</td>
+<td>Slow, deliberate fire</td>
+</tr>
+<tr>
+<td>Relaxation Time</td>
+<td>-------</td>
+<td>2.0s</td>
+<td>------</td>
+<td>Time to reset aim</td>
+</tr>
+<tr>
+<td>Aimed Shot Accuracy</td>
+<td>-------</td>
+<td>2.25x</td>
+<td>------</td>
+<td>Special ability multiplier</td>
+</tr>
+<tr>
+<td>Aimed Shot Damage</td>
+<td>-------</td>
+<td>5x</td>
+<td>------</td>
+<td>Devastating headshots</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Zeroing Accuracy (stationary aiming):</strong></p>
+<pre><code>Shot 1: 90% | Shot 2: 80% | Shot 3: 70% | Shot 4: 60% | Shot 5: 50%
+</code></pre>
+<p><strong>AI Firing Timeout (delay between shots):</strong>
+| Distance   | Delay |
+| ---------- | ----- |
+| 40m (20%)  | 1.75s |
+| 80m (40%)  | 2.8s  |
+| 120m (60%) | 3.15s |
+| 160m (80%) | 3.5s  |</p>
+<p><strong>Applies to:</strong>
+- Mosin-Nagant PU (Soviet)
+- Kar98k ZF39/ZF41 (German)
+- Springfield M1903A4 (USA)
+- Lee-Enfield No.4 Mk.I (T) (British)
+- All Finnish sniper variants</p>
+<h3 id="semi-auto-snipers-semi_sniper_riflepattern">Semi-Auto Snipers: <code>semi_sniper_rifle.pattern</code></h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>120</td>
+<td>180</td>
+<td>+50%</td>
+<td>Slightly less than bolt snipers</td>
+</tr>
+<tr>
+<td>Damage</td>
+<td>70</td>
+<td>110</td>
+<td>+57%</td>
+<td>Same as standard rifles</td>
+</tr>
+<tr>
+<td>Fire Rate</td>
+<td>175 rpm</td>
+<td>175 rpm</td>
+<td>------</td>
+<td>Faster follow-up shots</td>
+</tr>
+<tr>
+<td>Relaxation Time</td>
+<td>-------</td>
+<td>1.25s</td>
+<td>------</td>
+<td>Faster reset than bolt</td>
+</tr>
+<tr>
+<td>Aimed Shot Accuracy</td>
+<td>-------</td>
+<td>1.5x</td>
+<td>------</td>
+<td>Less bonus than bolt</td>
+</tr>
+<tr>
+<td>Aimed Shot Damage</td>
+<td>-------</td>
+<td>2x</td>
+<td>------</td>
+<td>Less devastating</td>
+</tr>
+<tr>
+<td>Burst Accuracy</td>
+<td>-------</td>
+<td>100→90→80→70→60→50%</td>
+<td>------</td>
+<td>Degrades with rapid fire</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Applies to:</strong>
+- SVT-40 w/PU scope (Soviet)
+- Gewehr 43 ZF4 (German)
+- M1C/M1D Garand (USA)</p>
+<h3 id="sniper-accuracy-curve-sniper_range">Sniper Accuracy Curve (<code>sniper_range</code>)</h3>
+<p><em>Spread radius in meters at each distance:</em></p>
+<table>
+<thead>
+<tr>
+<th>Distance</th>
+<th>Spread</th>
+<th>Real-World Equivalent</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0m</td>
+<td>0.01m</td>
+<td>Point blank</td>
+<td>Perfect</td>
+</tr>
+<tr>
+<td>50m</td>
+<td>0.05m</td>
+<td>~400m IRL</td>
+<td>Excellent</td>
+</tr>
+<tr>
+<td>100m</td>
+<td>0.1m</td>
+<td>~800m IRL</td>
+<td>Excellent</td>
+</tr>
+<tr>
+<td>150m</td>
+<td>0.2m</td>
+<td>~1200m IRL</td>
+<td>Very good</td>
+</tr>
+<tr>
+<td>200m</td>
+<td>0.4m</td>
+<td>~1600m IRL</td>
+<td>Good (max range)</td>
+</tr>
+<tr>
+<td>230m+</td>
+<td>5.0m</td>
+<td>Beyond effective</td>
+<td>Unusable</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="submachine-guns">Submachine Guns</h2>
+<h3 id="base-pattern-smgpattern">Base Pattern: <code>smg.pattern</code></h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>80</td>
+<td>100</td>
+<td>+25%</td>
+<td>Close-quarters optimized</td>
+</tr>
+<tr>
+<td>Damage</td>
+<td>55</td>
+<td>70</td>
+<td>+27%</td>
+<td>Pistol caliber</td>
+</tr>
+<tr>
+<td>Reload Time</td>
+<td>5.0s</td>
+<td>5.0s</td>
+<td>------</td>
+<td>Magazine change</td>
+</tr>
+<tr>
+<td>Spread Tolerance</td>
+<td>-------</td>
+<td>30%</td>
+<td>------</td>
+<td>AI aims to 30% before firing</td>
+</tr>
+<tr>
+<td>Accuracy Motion Bonus</td>
+<td>-------</td>
+<td>0.9x</td>
+<td>------</td>
+<td>Better accuracy while moving</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Burst Accuracy Decay:</strong></p>
+<pre><code>Shot 1: 100% | Shot 2: 95% | Shot 3: 90% | Shot 4: 85% | Shot 5: 80% | Shot 6: 75% | Shot 7: 70% | Shot 8: 65% | Shot 9+: 60%
+</code></pre>
+<p><strong>Applies to all SMGs:</strong>
+- PPSh-41, PPS-43, PPD-40 (Soviet)
+- MP40, MP38, MP28 (German)
+- Thompson M1A1, M3 Grease Gun (USA)
+- Sten Mk.II, Mk.III, Mk.V (British)
+- Suomi KP/-31 (Finnish)</p>
+<h3 id="smg-accuracy-curve-smg_range">SMG Accuracy Curve (<code>smg_range</code>)</h3>
+<p><em>Spread radius in meters at each distance:</em></p>
+<table>
+<thead>
+<tr>
+<th>Distance</th>
+<th>Spread</th>
+<th>Real-World Equivalent</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0m</td>
+<td>0.02m</td>
+<td>Point blank</td>
+<td>Near-perfect</td>
+</tr>
+<tr>
+<td>40m</td>
+<td>0.9m</td>
+<td>~320m IRL</td>
+<td>Good</td>
+</tr>
+<tr>
+<td>70m</td>
+<td>2.2m</td>
+<td>~560m IRL</td>
+<td>Moderate</td>
+</tr>
+<tr>
+<td>100m+</td>
+<td>4.0m</td>
+<td>~800m IRL</td>
+<td>Max range, poor</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="machine-guns">Machine Guns</h2>
+<h3 id="lightmedium-mgs-mgun_genericpattern">Light/Medium MGs: <code>mgun_generic.pattern</code></h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>120</td>
+<td>140</td>
+<td>+17%</td>
+<td>Tanks should outrange MGs</td>
+</tr>
+<tr>
+<td>Damage</td>
+<td>80</td>
+<td>110</td>
+<td>+38%</td>
+<td>Rifle caliber, sustained fire</td>
+</tr>
+<tr>
+<td>Reload Time</td>
+<td>5.0s</td>
+<td>5.0s</td>
+<td>------</td>
+<td>Belt/magazine change</td>
+</tr>
+<tr>
+<td>Trace Frequency</td>
+<td>5</td>
+<td>5</td>
+<td>------</td>
+<td>Every 5th round visible</td>
+</tr>
+<tr>
+<td>Spread Tolerance</td>
+<td>-------</td>
+<td>20%</td>
+<td>------</td>
+<td>AI aims to 20% before firing</td>
+</tr>
+</tbody>
+</table>
+<p><strong>AI Firing Timeout:</strong>
+| Distance    | Delay | Notes                   |
+| ----------- | ----- | ----------------------- |
+| 30m (25%)   | 1.05s | Close range suppression |
+| 96m (80%)   | 1.5s  | Standard engagement     |
+| 120m (100%) | 1.75s | Max range               |</p>
+<p><strong>Applies to:</strong>
+- DP-28, DT, SG-43 (Soviet)
+- MG34, MG42 (German)
+- M1919A4, M1919A6, BAR (USA)
+- Bren Mk.I/II, Lewis Gun, Vickers (British)
+- Lahti-Saloranta M/26 (Finnish)</p>
+<h3 id="heavy-mgs-hmgunpattern">Heavy MGs: <code>hmgun.pattern</code></h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>140</td>
+<td>180</td>
+<td>+29%</td>
+<td>Outranges standard MGs</td>
+</tr>
+<tr>
+<td>Damage (Health)</td>
+<td>180</td>
+<td>220</td>
+<td>+22%</td>
+<td>Devastating anti-personnel</td>
+</tr>
+<tr>
+<td>Damage (Armor)</td>
+<td>13</td>
+<td>16</td>
+<td>+23%</td>
+<td>Light vehicle threat</td>
+</tr>
+<tr>
+<td>Reload Time</td>
+<td>5.0s</td>
+<td>5.0s</td>
+<td>------</td>
+<td>Belt change</td>
+</tr>
+<tr>
+<td>Spread Tolerance</td>
+<td>-------</td>
+<td>20%</td>
+<td>------</td>
+<td>AI aims to 20% before firing</td>
+</tr>
+</tbody>
+</table>
+<p><strong>AI Firing Timeout:</strong>
+| Distance   | Delay          |
+| ---------- | -------------- |
+| 45m (25%)  | 0s (immediate) |
+| 135m (75%) | 1.5s           |</p>
+<p><strong>Applies to:</strong>
+- DShK 12.7mm (Soviet)
+- MG131 13mm (German)
+- M2 Browning .50 cal (USA)
+- Vickers .50 (British)</p>
+<h3 id="mg-accuracy-curve-mg_range">MG Accuracy Curve (<code>mg_range</code>)</h3>
+<p><em>Spread radius in meters at each distance:</em></p>
+<table>
+<thead>
+<tr>
+<th>Distance</th>
+<th>Spread</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0m</td>
+<td>0.02m</td>
+<td>Point blank</td>
+</tr>
+<tr>
+<td>40m</td>
+<td>0.3m</td>
+<td>Close range</td>
+</tr>
+<tr>
+<td>100m</td>
+<td>0.8m</td>
+<td>Medium range</td>
+</tr>
+<tr>
+<td>150m</td>
+<td>1.2m</td>
+<td>Extended range</td>
+</tr>
+<tr>
+<td>180m+</td>
+<td>4.0m</td>
+<td>Max range</td>
+</tr>
+</tbody>
+</table>
+<h3 id="hmg-accuracy-curve-hmg_range">HMG Accuracy Curve (<code>hmg_range</code>)</h3>
+<p><em>Spread radius in meters at each distance:</em></p>
+<table>
+<thead>
+<tr>
+<th>Distance</th>
+<th>Spread</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0m</td>
+<td>0.02m</td>
+<td>Point blank</td>
+</tr>
+<tr>
+<td>50m</td>
+<td>0.3m</td>
+<td>Close range</td>
+</tr>
+<tr>
+<td>120m</td>
+<td>0.8m</td>
+<td>Medium range</td>
+</tr>
+<tr>
+<td>180m</td>
+<td>1.2m</td>
+<td>Extended range</td>
+</tr>
+<tr>
+<td>200m+</td>
+<td>4.0m</td>
+<td>Max range</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="pistols">Pistols</h2>
+<h3 id="base-pattern-pistolpattern">Base Pattern: <code>pistol.pattern</code></h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>70</td>
+<td>85</td>
+<td>+21%</td>
+<td>Emergency weapon</td>
+</tr>
+<tr>
+<td>Damage</td>
+<td>60</td>
+<td>75</td>
+<td>+25%</td>
+<td>Pistol caliber</td>
+</tr>
+<tr>
+<td>Fire Rate</td>
+<td>300 rpm</td>
+<td>300 rpm</td>
+<td>------</td>
+<td>Semi-auto</td>
+</tr>
+<tr>
+<td>Reload Time</td>
+<td>3.25s</td>
+<td>3.25s</td>
+<td>------</td>
+<td>Magazine change</td>
+</tr>
+<tr>
+<td>Spread Tolerance</td>
+<td>-------</td>
+<td>30%</td>
+<td>------</td>
+<td>AI aims to 30% before firing</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Burst Accuracy Decay:</strong></p>
+<pre><code>Shot 1: 100% | Shot 2: 95% | Shot 3: 90% | Shot 4: 85% | Shot 5+: 80%
+</code></pre>
+<p><strong>AI Firing Timeout:</strong>
+| Distance   | Delay |
+| ---------- | ----- |
+| 25m (30%)  | 0.5s  |
+| 85m (100%) | 1.0s  |</p>
+<p><strong>Applies to all sidearms:</strong>
+- TT-33, Nagant M1895 (Soviet)
+- Luger P08, Walther P38 (German)
+- M1911A1 (USA)
+- Webley Mk.VI, Enfield No.2 (British)
+- Lahti L-35 (Finnish)</p>
+<h3 id="pistol-accuracy-curve-pistol_range">Pistol Accuracy Curve (<code>pistol_range</code>)</h3>
+<p><em>Spread radius in meters at each distance:</em></p>
+<table>
+<thead>
+<tr>
+<th>Distance</th>
+<th>Spread</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0m</td>
+<td>0.02m</td>
+<td>Point blank</td>
+</tr>
+<tr>
+<td>30m</td>
+<td>0.4m</td>
+<td>Effective range</td>
+</tr>
+<tr>
+<td>60m+</td>
+<td>1.0m</td>
+<td>Max range</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="anti-tank-weapons">Anti-Tank Weapons</h1>
+<h2 id="anti-tank-rifles">Anti-Tank Rifles</h2>
+<h3 id="base-pattern-at_riflepattern">Base Pattern: <code>at_rifle.pattern</code></h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>120</td>
+<td>160</td>
+<td>+33%</td>
+<td>Extended AT engagement</td>
+</tr>
+<tr>
+<td>Damage (Health)</td>
+<td>160</td>
+<td>200</td>
+<td>+25%</td>
+<td>Devastating to infantry</td>
+</tr>
+<tr>
+<td>Damage (Armor)</td>
+<td>45</td>
+<td>55</td>
+<td>+22%</td>
+<td>Better penetration</td>
+</tr>
+<tr>
+<td>Reload Time</td>
+<td>5.0s</td>
+<td>5.0s</td>
+<td>------</td>
+<td>Single shot reload</td>
+</tr>
+<tr>
+<td>Spread Tolerance</td>
+<td>-------</td>
+<td>20%</td>
+<td>------</td>
+<td>AI aims to 20% before firing</td>
+</tr>
+<tr>
+<td>Accuracy Motion Penalty</td>
+<td>-------</td>
+<td>0.75x</td>
+<td>------</td>
+<td>Must be stationary</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Zeroing Accuracy (stationary aiming):</strong></p>
+<pre><code>Shot 1: 90% | Shot 2: 80% | Shot 3: 75%
+</code></pre>
+<p><strong>Burst Accuracy Decay:</strong></p>
+<pre><code>Shot 1: 100% | Shot 2: 90% | Shot 3: 80% | Shot 4: 70% | Shot 5+: 60%
+</code></pre>
+<p><strong>AI Firing Timeout:</strong>
+| Distance   | Delay |
+| ---------- | ----- |
+| 48m (30%)  | 1.75s |
+| 128m (80%) | 3.5s  |</p>
+<p><strong>Applies to:</strong>
+- PTRD-41, PTRS-41 (Soviet)
+- Panzerbüchse 39 (German)
+- Boys Anti-Tank Rifle (British)
+- Lahti L-39 (Finnish)</p>
+<hr />
+<h2 id="bazookas-panzerfausts">Bazookas &amp; Panzerfausts</h2>
+<h3 id="base-pattern-rpg_weaponpattern">Base Pattern: <code>rpg_weapon.pattern</code></h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>70</td>
+<td>90</td>
+<td>+29%</td>
+<td>Realistic AT range</td>
+</tr>
+<tr>
+<td>Fire Rate</td>
+<td>6 rpm</td>
+<td>6 rpm</td>
+<td>------</td>
+<td>Slow reload</td>
+</tr>
+<tr>
+<td>Reload Time</td>
+<td>10s</td>
+<td>10s</td>
+<td>------</td>
+<td>Team reload</td>
+</tr>
+<tr>
+<td>Gravity</td>
+<td>0.75</td>
+<td>0.75</td>
+<td>------</td>
+<td>Rocket drop</td>
+</tr>
+<tr>
+<td>Accuracy Motion Penalty</td>
+<td>-------</td>
+<td>0.1x</td>
+<td>------</td>
+<td>Must be stationary</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Zeroing Accuracy:</strong></p>
+<pre><code>Shot 1: 70% | Shot 2: 60% | Shot 3: 50% | Shot 4: 40%
+</code></pre>
+<p><strong>Spread Function:</strong>
+| Range % | Spread Multiplier |
+| ------- | ----------------- |
+| 0%      | 0                 |
+| 85%     | 0.9x              |
+| 100%    | 1.3x              |
+| 120%    | 6x                |
+| 200%    | 30x               |</p>
+<p><strong>AI Firing Timeout:</strong> 11s minimum, 3s variance</p>
+<p><strong>Applies to:</strong>
+- M1/M9 Bazooka (USA)
+- Panzerschreck (German)
+- PIAT (British)</p>
+<h3 id="individual-overrides">Individual Overrides</h3>
+<h4 id="faustpatrone-30-disposable">Faustpatrone 30 (Disposable)</h4>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>30</td>
+<td>40</td>
+<td>+33%</td>
+<td>Emergency AT</td>
+</tr>
+</tbody>
+</table>
+<h4 id="panzerfaust-30">Panzerfaust 30</h4>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>30</td>
+<td>40</td>
+<td>+33%</td>
+<td>Short range</td>
+</tr>
+</tbody>
+</table>
+<h4 id="panzerfaust-60">Panzerfaust 60</h4>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>40</td>
+<td>55</td>
+<td>+38%</td>
+<td>Medium range</td>
+</tr>
+</tbody>
+</table>
+<h4 id="panzerfaust-100">Panzerfaust 100</h4>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>50</td>
+<td>70</td>
+<td>+40%</td>
+<td>Long range variant</td>
+</tr>
+</tbody>
+</table>
+<h4 id="m18-recoilless-rifle-usa">M18 Recoilless Rifle (USA)</h4>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>90</td>
+<td>115</td>
+<td>+28%</td>
+<td>Crew-served weapon</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="rifle-grenade-launchers">Rifle Grenade Launchers</h2>
+<p>All rifle grenade launchers follow similar patterns with FCRO increasing ranges by 25%.</p>
+<h3 id="british-grenade-launchers">British Grenade Launchers</h3>
+<h4 id="enfield-no4-mki-grenade-launcher">Enfield No.4 Mk.I Grenade Launcher</h4>
+<table>
+<thead>
+<tr>
+<th>Ammo Type</th>
+<th>Vanilla Range</th>
+<th>FCRO Range</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HE</td>
+<td>80</td>
+<td>100</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>HEAT</td>
+<td>60</td>
+<td>75</td>
+<td>+25%</td>
+</tr>
+</tbody>
+</table>
+<h4 id="enfield-no1-mkiii-grenade-launcher">Enfield No.1 Mk.III Grenade Launcher</h4>
+<table>
+<thead>
+<tr>
+<th>Ammo Type</th>
+<th>Vanilla Range</th>
+<th>FCRO Range</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HE</td>
+<td>80</td>
+<td>100</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>HEAT</td>
+<td>60</td>
+<td>75</td>
+<td>+25%</td>
+</tr>
+</tbody>
+</table>
+<h3 id="german-grenade-launchers">German Grenade Launchers</h3>
+<h4 id="kar98k-grenade-launcher-gewehrgranatgerat">Kar98k Grenade Launcher (Gewehrgranatgerät)</h4>
+<table>
+<thead>
+<tr>
+<th>Ammo Type</th>
+<th>Vanilla Range</th>
+<th>FCRO Range</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HE</td>
+<td>80</td>
+<td>100</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>HEAT</td>
+<td>60</td>
+<td>75</td>
+<td>+25%</td>
+</tr>
+</tbody>
+</table>
+<h4 id="kar98k-anti-tank-grenade">Kar98k Anti-Tank Grenade</h4>
+<table>
+<thead>
+<tr>
+<th>Ammo Type</th>
+<th>Vanilla Range</th>
+<th>FCRO Range</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HEAT</td>
+<td>60</td>
+<td>75</td>
+<td>+25%</td>
+</tr>
+</tbody>
+</table>
+<h3 id="american-grenade-launchers">American Grenade Launchers</h3>
+<h4 id="m1-garand-grenade-launcher-m7">M1 Garand Grenade Launcher (M7)</h4>
+<table>
+<thead>
+<tr>
+<th>Ammo Type</th>
+<th>Vanilla Range</th>
+<th>FCRO Range</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HE</td>
+<td>80</td>
+<td>100</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>WP (White Phosphorus)</td>
+<td>80</td>
+<td>100</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>HEAT</td>
+<td>60</td>
+<td>75</td>
+<td>+25%</td>
+</tr>
+</tbody>
+</table>
+<h4 id="m1-carbine-grenade-launcher-m8">M1 Carbine Grenade Launcher (M8)</h4>
+<table>
+<thead>
+<tr>
+<th>Ammo Type</th>
+<th>Vanilla Range</th>
+<th>FCRO Range</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HE</td>
+<td>80</td>
+<td>100</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>WP</td>
+<td>80</td>
+<td>100</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>HEAT</td>
+<td>60</td>
+<td>75</td>
+<td>+25%</td>
+</tr>
+</tbody>
+</table>
+<h3 id="soviet-grenade-launchers">Soviet Grenade Launchers</h3>
+<h4 id="mosin-nagant-grenade-launcher-dyakonov">Mosin-Nagant Grenade Launcher (Dyakonov)</h4>
+<table>
+<thead>
+<tr>
+<th>Ammo Type</th>
+<th>Vanilla Range</th>
+<th>FCRO Range</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HE</td>
+<td>80</td>
+<td>100</td>
+<td>+25%</td>
+</tr>
+</tbody>
+</table>
+<h4 id="mosin-nagant-anti-tank-grenade-vpgs-41">Mosin-Nagant Anti-Tank Grenade (VPGS-41)</h4>
+<table>
+<thead>
+<tr>
+<th>Ammo Type</th>
+<th>Vanilla Range</th>
+<th>FCRO Range</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HEAT</td>
+<td>60</td>
+<td>75</td>
+<td>+25%</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="flamethrowers">Flamethrowers</h1>
+<p>All flamethrower weapons receive ~25% range increases. These weapons excel at bunker clearing and close-quarters combat.</p>
+<h2 id="infantry-flamethrowers">Infantry Flamethrowers</h2>
+<table>
+<thead>
+<tr>
+<th>Weapon</th>
+<th>Nation</th>
+<th>Vanilla Range</th>
+<th>FCRO Range</th>
+<th>Change</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Flammenwerfer 35</td>
+<td>German</td>
+<td>25-27</td>
+<td>32-35</td>
+<td>+28%</td>
+<td>Early war, short range</td>
+</tr>
+<tr>
+<td>Flammenwerfer 41</td>
+<td>German</td>
+<td>30-32</td>
+<td>38-40</td>
+<td>+27%</td>
+<td>Improved design</td>
+</tr>
+<tr>
+<td>M1 Flamethrower</td>
+<td>USA</td>
+<td>20-21</td>
+<td>26-27</td>
+<td>+30%</td>
+<td>Early war, very short</td>
+</tr>
+<tr>
+<td>M1A1 Flamethrower</td>
+<td>USA</td>
+<td>40-41</td>
+<td>50-52</td>
+<td>+25%</td>
+<td>Standard issue</td>
+</tr>
+<tr>
+<td>M2 Flamethrower</td>
+<td>USA</td>
+<td>40-41</td>
+<td>50-52</td>
+<td>+25%</td>
+<td>Improved M1A1</td>
+</tr>
+<tr>
+<td>ROKS-2</td>
+<td>Soviet</td>
+<td>40-41</td>
+<td>50-52</td>
+<td>+25%</td>
+<td>Disguised as backpack</td>
+</tr>
+<tr>
+<td>ROKS-3</td>
+<td>Soviet</td>
+<td>40-41</td>
+<td>50-52</td>
+<td>+25%</td>
+<td>Improved ROKS-2</td>
+</tr>
+<tr>
+<td>Flamethrower No.2 Mk.II</td>
+<td>British</td>
+<td>34-36</td>
+<td>43-46</td>
+<td>+26%</td>
+<td>Lifebuoy type</td>
+</tr>
+</tbody>
+</table>
+<h2 id="vehicle-flamethrowers">Vehicle Flamethrowers</h2>
+<table>
+<thead>
+<tr>
+<th>Weapon</th>
+<th>Vehicle/Nation</th>
+<th>Vanilla Range</th>
+<th>FCRO Range</th>
+<th>Change</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ATO-41</td>
+<td>OT-34 (Soviet)</td>
+<td>60</td>
+<td>75</td>
+<td>+25%</td>
+<td>Early tank flamethrower</td>
+</tr>
+<tr>
+<td>ATO-42</td>
+<td>OT-34/85 (Soviet)</td>
+<td>80</td>
+<td>100</td>
+<td>+25%</td>
+<td>Improved pressurized</td>
+</tr>
+<tr>
+<td>Churchill Crocodile</td>
+<td>British</td>
+<td>80</td>
+<td>100</td>
+<td>+25%</td>
+<td>Devastating trailer-fed</td>
+</tr>
+<tr>
+<td>Wasp Carrier</td>
+<td>British</td>
+<td>70</td>
+<td>88</td>
+<td>+26%</td>
+<td>Universal Carrier mount</td>
+</tr>
+<tr>
+<td>E4-5</td>
+<td>German Sd.Kfz. 251/16</td>
+<td>54-55</td>
+<td>68-70</td>
+<td>+26%</td>
+<td>Half-track mount</td>
+</tr>
+<tr>
+<td>Flammenwerfer B2</td>
+<td>Flammpanzer III</td>
+<td>45</td>
+<td>57</td>
+<td>+27%</td>
+<td>Panzer III conversion</td>
+</tr>
+<tr>
+<td>KS-24</td>
+<td>Soviet</td>
+<td>35-40</td>
+<td>44-50</td>
+<td>+26%</td>
+<td>Early tank mount</td>
+</tr>
+<tr>
+<td>KS-25</td>
+<td>Soviet/Finnish</td>
+<td>45</td>
+<td>57</td>
+<td>+27%</td>
+<td>Standard tank mount</td>
+</tr>
+<tr>
+<td>14mm Flammenwerfer</td>
+<td>SdKfz 251/16 (German)</td>
+<td>60</td>
+<td>75</td>
+<td>+25%</td>
+<td>Twin mount</td>
+</tr>
+<tr>
+<td>14mm Flammenwerfer</td>
+<td>Flammpanzer III</td>
+<td>60</td>
+<td>75</td>
+<td>+25%</td>
+<td>Tank mount</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Flamethrower Notes:</strong>
+- Range values shown as min-max where applicable
+- Vehicle flamethrowers have much larger fuel tanks (20+ shots vs 6-10)
+- Crocodile can fire indefinitely while connected to trailer
+- All flamethrowers cause morale damage and suppression</p>
+<hr />
+<h1 id="mortars">Mortars</h1>
+<h3 id="base-patterns-mortarpresets">Base Patterns: <code>mortar/.presets</code></h3>
+<p>All mortar classes receive range increases while maintaining realistic accuracy degradation at range.</p>
+<h2 id="light-mortars-50mm-class">Light Mortars (50mm class)</h2>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Max Range</td>
+<td>140</td>
+<td>175</td>
+<td>+25%</td>
+<td>~1400m IRL</td>
+</tr>
+<tr>
+<td>Min Range</td>
+<td>30</td>
+<td>30</td>
+<td>------</td>
+<td>Arming distance</td>
+</tr>
+<tr>
+<td>Reload Time</td>
+<td>-------</td>
+<td>2.7s</td>
+<td>------</td>
+<td>Fast rate of fire</td>
+</tr>
+<tr>
+<td>HE Damage</td>
+<td>-------</td>
+<td>10</td>
+<td>------</td>
+<td>Light fragmentation</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Accuracy (radiusTable):</strong>
+| Distance | Spread (meters) | Notes                 |
+| -------- | --------------- | --------------------- |
+| 0m       | 4m              | Minimum dispersion    |
+| 120m     | 14m             | Standard engagement   |
+| 175m     | 20m             | Max range             |
+| 175m+    | 100m            | Beyond max (unusable) |</p>
+<p><strong>Applies to:</strong>
+- 50mm RM-40 (Soviet)
+- 50mm Granatwerfer 36 (German)
+- 2-inch Mortar (British)</p>
+<h2 id="medium-mortars-81-82mm-class">Medium Mortars (81-82mm class)</h2>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Max Range</td>
+<td>160</td>
+<td>200</td>
+<td>+25%</td>
+<td>~1600m IRL</td>
+</tr>
+<tr>
+<td>Min Range</td>
+<td>40</td>
+<td>40</td>
+<td>------</td>
+<td>Arming distance</td>
+</tr>
+<tr>
+<td>Reload Time</td>
+<td>-------</td>
+<td>5.0s</td>
+<td>------</td>
+<td>Standard rate</td>
+</tr>
+<tr>
+<td>Smoke/WP Reload</td>
+<td>-------</td>
+<td>3.3s</td>
+<td>------</td>
+<td>Faster for smoke</td>
+</tr>
+<tr>
+<td>HE Damage</td>
+<td>-------</td>
+<td>15</td>
+<td>------</td>
+<td>Medium fragmentation</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Accuracy (radiusTable):</strong>
+| Distance | Spread (meters) | Notes                 |
+| -------- | --------------- | --------------------- |
+| 0m       | 4m              | Minimum dispersion    |
+| 120m     | 18m             | Standard engagement   |
+| 200m     | 35m             | Max range             |
+| 200m+    | 100m            | Beyond max (unusable) |</p>
+<p><strong>Applies to:</strong>
+- 82mm BM-37 (Soviet)
+- 81mm Granatwerfer 34 (German)
+- 81mm M1 Mortar (USA)
+- 3-inch Mortar (British)
+- 81mm Kranaatinheitin m/38 (Finnish)</p>
+<h2 id="medium-heavy-mortars-107mm-class">Medium-Heavy Mortars (107mm class)</h2>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Max Range</td>
+<td>180</td>
+<td>225</td>
+<td>+25%</td>
+<td>~1800m IRL</td>
+</tr>
+<tr>
+<td>Min Range</td>
+<td>45</td>
+<td>45</td>
+<td>------</td>
+<td>Arming distance</td>
+</tr>
+<tr>
+<td>Reload Time</td>
+<td>-------</td>
+<td>7.0s</td>
+<td>------</td>
+<td>Slower rate</td>
+</tr>
+<tr>
+<td>Smoke/WP Reload</td>
+<td>-------</td>
+<td>3.4s</td>
+<td>------</td>
+<td>Faster for smoke</td>
+</tr>
+<tr>
+<td>HE Damage</td>
+<td>-------</td>
+<td>20</td>
+<td>------</td>
+<td>Heavy fragmentation</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Accuracy (radiusTable):</strong>
+| Distance | Spread (meters) | Notes                 |
+| -------- | --------------- | --------------------- |
+| 0m       | 4m              | Minimum dispersion    |
+| 120m     | 18m             | Standard engagement   |
+| 225m     | 35m             | Max range             |
+| 225m+    | 100m            | Beyond max (unusable) |</p>
+<p><strong>Applies to:</strong>
+- 107mm GVPM (Soviet)
+- 4.2-inch M2 Mortar (USA)</p>
+<h2 id="heavy-mortars-120mm-class">Heavy Mortars (120mm class)</h2>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Max Range</td>
+<td>230</td>
+<td>290</td>
+<td>+26%</td>
+<td>~2320m IRL</td>
+</tr>
+<tr>
+<td>Min Range</td>
+<td>50</td>
+<td>50</td>
+<td>------</td>
+<td>Arming distance</td>
+</tr>
+<tr>
+<td>Reload Time</td>
+<td>-------</td>
+<td>10.0s</td>
+<td>------</td>
+<td>Very slow rate</td>
+</tr>
+<tr>
+<td>Smoke/WP Reload</td>
+<td>-------</td>
+<td>3.5s</td>
+<td>------</td>
+<td>Faster for smoke</td>
+</tr>
+<tr>
+<td>HE Damage</td>
+<td>-------</td>
+<td>30</td>
+<td>------</td>
+<td>Devastating</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Accuracy (radiusTable):</strong>
+| Distance | Spread (meters) | Notes                 |
+| -------- | --------------- | --------------------- |
+| 0m       | 4m              | Minimum dispersion    |
+| 120m     | 18m             | Close range           |
+| 170m     | 30m             | Medium range          |
+| 290m     | 40m             | Max range             |
+| 290m+    | 100m            | Beyond max (unusable) |</p>
+<p><strong>Applies to:</strong>
+- 120mm PM-38 (Soviet)
+- 120mm Granatwerfer 42 (German)
+- 120mm Kranaatinheitin m/40 (Finnish)</p>
+<h2 id="super-heavy-mortars-160mm-class">Super-Heavy Mortars (160mm+ class)</h2>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Max Range</td>
+<td>150</td>
+<td>190</td>
+<td>+27%</td>
+<td>~1520m IRL</td>
+</tr>
+<tr>
+<td>Min Range</td>
+<td>25</td>
+<td>25</td>
+<td>------</td>
+<td>Close support</td>
+</tr>
+<tr>
+<td>Reload Time</td>
+<td>-------</td>
+<td>10.0s</td>
+<td>------</td>
+<td>Very slow rate</td>
+</tr>
+<tr>
+<td>HE Damage</td>
+<td>-------</td>
+<td>30</td>
+<td>------</td>
+<td>Devastating</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Accuracy (radiusTable):</strong>
+| Distance | Spread (meters) | Notes                 |
+| -------- | --------------- | --------------------- |
+| 0m       | 4m              | Minimum dispersion    |
+| 190m     | 15m             | Max range (accurate)  |
+| 190m+    | 100m            | Beyond max (unusable) |</p>
+<p><strong>Applies to:</strong>
+- 160mm MT-13 (Soviet)
+- Japanese Type 97 150mm (via MACE)</p>
+<hr />
+<h1 id="rocket-artillery">Rocket Artillery</h1>
+<p>Rocket artillery provides devastating area saturation fire. FCRO increases range by ~20% to reflect realistic engagement distances.</p>
+<h2 id="soviet-katyusha-systems">Soviet Katyusha Systems</h2>
+<table>
+<thead>
+<tr>
+<th>Weapon</th>
+<th>Mount</th>
+<th>Vanilla Range</th>
+<th>FCRO Range</th>
+<th>Change</th>
+<th>Rockets</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BM-13</td>
+<td>Truck</td>
+<td>325</td>
+<td>390</td>
+<td>+20%</td>
+<td>16x 132mm</td>
+</tr>
+<tr>
+<td>BM-8-24</td>
+<td>Truck</td>
+<td>290</td>
+<td>350</td>
+<td>+21%</td>
+<td>24x 82mm</td>
+</tr>
+<tr>
+<td>BM-8-48</td>
+<td>Truck</td>
+<td>290</td>
+<td>350</td>
+<td>+21%</td>
+<td>48x 82mm</td>
+</tr>
+<tr>
+<td>BM-30</td>
+<td>Rail</td>
+<td>275</td>
+<td>330</td>
+<td>+20%</td>
+<td>12x 300mm</td>
+</tr>
+<tr>
+<td>M-30 Frame</td>
+<td>Ground</td>
+<td>275</td>
+<td>330</td>
+<td>+20%</td>
+<td>4x 300mm</td>
+</tr>
+<tr>
+<td>M-31 Frame</td>
+<td>Ground</td>
+<td>275</td>
+<td>330</td>
+<td>+20%</td>
+<td>4x 300mm</td>
+</tr>
+</tbody>
+</table>
+<p><strong>BM-13 Katyusha Accuracy (radiusTable):</strong>
+| Distance | Spread | Notes               |
+| -------- | ------ | ------------------- |
+| 0m       | 4m     | Close range         |
+| 350m     | 38m    | Standard engagement |
+| 390m     | 40m    | Max range           |
+| 390m+    | 100m   | Beyond max          |</p>
+<h2 id="german-nebelwerfer-systems">German Nebelwerfer Systems</h2>
+<table>
+<thead>
+<tr>
+<th>Weapon</th>
+<th>Mount</th>
+<th>Vanilla Range</th>
+<th>FCRO Range</th>
+<th>Change</th>
+<th>Rockets</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>150mm Nebelwerfer 41</td>
+<td>Towed</td>
+<td>310</td>
+<td>375</td>
+<td>+21%</td>
+<td>6x 150mm</td>
+</tr>
+<tr>
+<td>150mm Panzerwerfer 42</td>
+<td>Half-track</td>
+<td>310</td>
+<td>375</td>
+<td>+21%</td>
+<td>10x 150mm</td>
+</tr>
+<tr>
+<td>210mm Nebelwerfer 42</td>
+<td>Towed</td>
+<td>320</td>
+<td>385</td>
+<td>+20%</td>
+<td>5x 210mm</td>
+</tr>
+<tr>
+<td>300mm Nebelwerfer 42</td>
+<td>Towed</td>
+<td>280</td>
+<td>336</td>
+<td>+20%</td>
+<td>6x 300mm</td>
+</tr>
+<tr>
+<td>280mm Wurfrahmen 40 (x6)</td>
+<td>Vehicle</td>
+<td>250</td>
+<td>300</td>
+<td>+20%</td>
+<td>6x 280mm</td>
+</tr>
+<tr>
+<td>300mm Wurfrahmen 40 (x4)</td>
+<td>Vehicle</td>
+<td>280</td>
+<td>336</td>
+<td>+20%</td>
+<td>4x 300mm</td>
+</tr>
+<tr>
+<td>300mm Wurfrahmen 40 (x6)</td>
+<td>Vehicle</td>
+<td>280</td>
+<td>336</td>
+<td>+20%</td>
+<td>6x 300mm</td>
+</tr>
+<tr>
+<td>380mm Sturmtiger</td>
+<td>SPG</td>
+<td>~300</td>
+<td>360</td>
+<td>+20%</td>
+<td>1x 380mm</td>
+</tr>
+</tbody>
+</table>
+<p><strong>150mm Nebelwerfer Accuracy (radiusTable):</strong>
+| Distance | Spread | Notes               |
+| -------- | ------ | ------------------- |
+| 0m       | 4m     | Close range         |
+| 340m     | 18m    | Standard engagement |
+| 375m     | 20m    | Max range           |
+| 375m+    | 100m   | Beyond max          |</p>
+<h2 id="american-rocket-systems">American Rocket Systems</h2>
+<table>
+<thead>
+<tr>
+<th>Weapon</th>
+<th>Mount</th>
+<th>Vanilla Range</th>
+<th>FCRO Range</th>
+<th>Change</th>
+<th>Rockets</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T34 Calliope</td>
+<td>M4 Sherman</td>
+<td>270</td>
+<td>325</td>
+<td>+20%</td>
+<td>60x 114mm</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Calliope Accuracy (radiusTable):</strong>
+| Distance | Spread | Notes               |
+| -------- | ------ | ------------------- |
+| 0m       | 4m     | Close range         |
+| 300m     | 32m    | Standard engagement |
+| 325m     | 35m    | Max range           |
+| 325m+    | 100m   | Beyond max          |</p>
+<h2 id="british-rocket-systems">British Rocket Systems</h2>
+<table>
+<thead>
+<tr>
+<th>Weapon</th>
+<th>Mount</th>
+<th>Vanilla Range</th>
+<th>FCRO Range</th>
+<th>Change</th>
+<th>Rockets</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Land Mattress</td>
+<td>Towed</td>
+<td>310</td>
+<td>375</td>
+<td>+21%</td>
+<td>30x 76mm</td>
+</tr>
+<tr>
+<td>50mm Rocket Projector</td>
+<td>Towed</td>
+<td>140</td>
+<td>170</td>
+<td>+21%</td>
+<td>16x 50mm</td>
+</tr>
+<tr>
+<td>50mm Rocket Projector (x4)</td>
+<td>Ship</td>
+<td>140</td>
+<td>170</td>
+<td>+21%</td>
+<td>4x 50mm</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Land Mattress Accuracy (radiusTable):</strong>
+| Distance | Spread | Notes               |
+| -------- | ------ | ------------------- |
+| 0m       | 4m     | Close range         |
+| 340m     | 27m    | Standard engagement |
+| 375m     | 30m    | Max range           |
+| 375m+    | 100m   | Beyond max          |</p>
+<h2 id="aircraft-rockets">Aircraft Rockets</h2>
+<table>
+<thead>
+<tr>
+<th>Weapon</th>
+<th>Nation</th>
+<th>Platform</th>
+<th>Vanilla Range</th>
+<th>FCRO Range</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RP-3 (x2)</td>
+<td>British</td>
+<td>Typhoon, etc.</td>
+<td>180</td>
+<td>220</td>
+<td>+22%</td>
+</tr>
+<tr>
+<td>RP-3 (x4)</td>
+<td>British</td>
+<td>Typhoon, etc.</td>
+<td>180</td>
+<td>220</td>
+<td>+22%</td>
+</tr>
+<tr>
+<td>HVAR (x4)</td>
+<td>USA</td>
+<td>P-47, etc.</td>
+<td>300</td>
+<td>360</td>
+<td>+20%</td>
+</tr>
+<tr>
+<td>HVAR (x10)</td>
+<td>USA</td>
+<td>P-47, etc.</td>
+<td>300</td>
+<td>360</td>
+<td>+20%</td>
+</tr>
+<tr>
+<td>RS-82</td>
+<td>Soviet</td>
+<td>IL-2, etc.</td>
+<td>300</td>
+<td>360</td>
+<td>+20%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Aircraft Rocket Notes:</strong>
+- <code>unlimitedRangeTPC 0</code> restricts range in tactical/first-person camera
+- Aircraft must dive to engage at maximum ranges
+- Unguided rockets have significant spread at range</p>
+<hr />
+<h1 id="tank-artillery-guns">Tank &amp; Artillery Guns</h1>
+<p>Tank and artillery guns use standardized range macros to ensure consistent engagement distances across similar weapon types. FCRO increases all ranges by 25%+.</p>
+<h2 id="range-macros-via-gunpresets">Range Macros (via <code>gun/.presets</code>)</h2>
+<p>These macros define the base engagement ranges for tank and artillery guns:</p>
+<table>
+<thead>
+<tr>
+<th>Macro Name</th>
+<th>Vanilla Range</th>
+<th>FCRO Range</th>
+<th>Change</th>
+<th>Typical Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>range_160</code></td>
+<td>160</td>
+<td>200</td>
+<td>+25%</td>
+<td>Short-barrel 75mm howitzers, early war guns</td>
+</tr>
+<tr>
+<td><code>range_170</code></td>
+<td>170</td>
+<td>215</td>
+<td>+26%</td>
+<td>Light tank guns (37mm, 40mm, 45mm)</td>
+</tr>
+<tr>
+<td><code>range_180</code></td>
+<td>180</td>
+<td>225</td>
+<td>+25%</td>
+<td>Medium tank guns (76mm F-34, 75mm M3)</td>
+</tr>
+<tr>
+<td><code>range_190</code></td>
+<td>190</td>
+<td>240</td>
+<td>+26%</td>
+<td>Medium-long guns (76mm ZiS-3, 75mm Pak 40)</td>
+</tr>
+<tr>
+<td><code>range_200</code></td>
+<td>200</td>
+<td>250</td>
+<td>+25%</td>
+<td>Long-barrel tank guns (76mm M1, 85mm)</td>
+</tr>
+<tr>
+<td><code>range_210</code></td>
+<td>210</td>
+<td>260</td>
+<td>+24%</td>
+<td>Heavy tank guns (88mm L/56, 122mm)</td>
+</tr>
+<tr>
+<td><code>range_220</code></td>
+<td>220</td>
+<td>275</td>
+<td>+25%</td>
+<td>Very long-barrel guns (88mm L/71, 17-pdr)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="howitzer-range-macros">Howitzer Range Macros</h2>
+<p>Separate macros for indirect-fire capable howitzers with higher arcs:</p>
+<table>
+<thead>
+<tr>
+<th>Macro Name</th>
+<th>Vanilla Range</th>
+<th>FCRO Range</th>
+<th>Change</th>
+<th>Typical Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>range_160_howitzer</code></td>
+<td>160</td>
+<td>200</td>
+<td>+25%</td>
+<td>Short assault howitzers</td>
+</tr>
+<tr>
+<td><code>range_170_howitzer</code></td>
+<td>170</td>
+<td>215</td>
+<td>+26%</td>
+<td>Infantry guns</td>
+</tr>
+<tr>
+<td><code>range_180_howitzer</code></td>
+<td>180</td>
+<td>225</td>
+<td>+25%</td>
+<td>Medium howitzers</td>
+</tr>
+<tr>
+<td><code>range_190_howitzer</code></td>
+<td>190</td>
+<td>240</td>
+<td>+26%</td>
+<td>Field howitzers</td>
+</tr>
+<tr>
+<td><code>range_200_howitzer</code></td>
+<td>200</td>
+<td>250</td>
+<td>+25%</td>
+<td>Heavy howitzers</td>
+</tr>
+<tr>
+<td><code>range_210_howitzer</code></td>
+<td>210</td>
+<td>260</td>
+<td>+24%</td>
+<td>Super-heavy howitzers</td>
+</tr>
+</tbody>
+</table>
+<h2 id="german-tank-guns">German Tank Guns</h2>
+<h3 id="75mm-kwk-40-l43-pziv-f2-stug-iii-g-early">75mm KwK 40 L/43 (Pz.IV F2, StuG III G early)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>190</td>
+<td>240</td>
+<td>+26%</td>
+</tr>
+<tr>
+<td>Uses</td>
+<td><code>range_190</code> macro</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="75mm-kwk-42-l70-panther">75mm KwK 42 L/70 (Panther)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>200</td>
+<td>260</td>
+<td>+30%</td>
+</tr>
+<tr>
+<td>Uses</td>
+<td><code>range_200</code> + override</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="88mm-kwk-36-l56-tiger-i">88mm KwK 36 L/56 (Tiger I)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>200</td>
+<td>250</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>Uses</td>
+<td><code>range_200</code> macro</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="88mm-kwk-43-l71-tiger-ii-nashorn">88mm KwK 43 L/71 (Tiger II, Nashorn)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>220</td>
+<td>275</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>Uses</td>
+<td><code>range_220</code> macro</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="128mm-pak-44-l55-jagdtiger">128mm PaK 44 L/55 (Jagdtiger)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>220+</td>
+<td>275+</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>Uses</td>
+<td><code>range_220</code> macro</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="soviet-tank-guns">Soviet Tank Guns</h2>
+<h3 id="45mm-20-k-t-70-ba-10">45mm 20-K (T-70, BA-10)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>170</td>
+<td>215</td>
+<td>+26%</td>
+</tr>
+<tr>
+<td>Uses</td>
+<td><code>range_170</code> macro</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="76mm-f-34-t-3476-kv-1">76mm F-34 (T-34/76, KV-1)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>180</td>
+<td>225</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>Uses</td>
+<td><code>range_180</code> macro</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="85mm-zis-s-53d-5t-t-3485-kv-85">85mm ZiS-S-53/D-5T (T-34/85, KV-85)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>200</td>
+<td>250</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>Uses</td>
+<td><code>range_200</code> macro</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="100mm-d-10t-su-100-t-54-prototype">100mm D-10T (SU-100, T-54 prototype)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>210</td>
+<td>260</td>
+<td>+24%</td>
+</tr>
+<tr>
+<td>Uses</td>
+<td><code>range_210</code> macro</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="122mm-d-25t-is-2-isu-122">122mm D-25T (IS-2, ISU-122)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>210</td>
+<td>260</td>
+<td>+24%</td>
+</tr>
+<tr>
+<td>Uses</td>
+<td><code>range_210</code> macro</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="152mm-ml-20s-isu-152">152mm ML-20S (ISU-152)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>200</td>
+<td>250</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>Uses</td>
+<td><code>range_200_howitzer</code> macro</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="american-tank-guns">American Tank Guns</h2>
+<h3 id="37mm-m6-m3-stuart">37mm M6 (M3 Stuart)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>170</td>
+<td>215</td>
+<td>+26%</td>
+</tr>
+<tr>
+<td>Uses</td>
+<td><code>range_170</code> macro</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="75mm-m3-m4-sherman-early">75mm M3 (M4 Sherman early)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>180</td>
+<td>225</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>Uses</td>
+<td><code>range_180</code> macro</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="76mm-m1a1m1a2-m4a1-76w-m18">76mm M1A1/M1A2 (M4A1 76W, M18)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>200</td>
+<td>250</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>Uses</td>
+<td><code>range_200</code> macro</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="90mm-m3-m26-pershing-m36">90mm M3 (M26 Pershing, M36)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>210</td>
+<td>260</td>
+<td>+24%</td>
+</tr>
+<tr>
+<td>Uses</td>
+<td><code>range_210</code> macro</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="105mm-t5e1-t26e4-super-pershing">105mm T5E1 (T26E4 Super Pershing)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>220</td>
+<td>275</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>Uses</td>
+<td><code>range_220</code> macro</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="british-tank-guns">British Tank Guns</h2>
+<h3 id="qf-2-pounder-40mm-matilda-valentine">QF 2-pounder (40mm - Matilda, Valentine)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>160</td>
+<td>200</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>Uses</td>
+<td><code>range_160</code> macro</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="qf-6-pounder-57mm-cromwell-churchill-iii">QF 6-pounder (57mm - Cromwell, Churchill III)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>180</td>
+<td>225</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>Uses</td>
+<td><code>range_180</code> macro</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="oqf-75mm-cromwell-churchill-vi">OQF 75mm (Cromwell, Churchill VI)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>180</td>
+<td>225</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>Uses</td>
+<td><code>range_180</code> macro</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="qf-77mm-hv-comet">QF 77mm HV (Comet)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>200</td>
+<td>250</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>Uses</td>
+<td><code>range_200</code> macro</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="qf-17-pounder-762mm-firefly-achilles-archer">QF 17-pounder (76.2mm - Firefly, Achilles, Archer)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>210-220</td>
+<td>260-275</td>
+<td>+24-25%</td>
+</tr>
+<tr>
+<td>Uses</td>
+<td><code>range_210</code> or <code>range_220</code> macro</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>APDS available</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="ordnance-qf-25-pounder-876mm-sexton">Ordnance QF 25-pounder (87.6mm - Sexton)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>190</td>
+<td>240</td>
+<td>+26%</td>
+</tr>
+<tr>
+<td>Uses</td>
+<td><code>range_190_howitzer</code> macro</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="japanese-tank-guns">Japanese Tank Guns</h2>
+<h3 id="type-1-47mm-chi-ha-kai">Type 1 47mm (Chi-Ha Kai)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>170</td>
+<td>215</td>
+<td>+26%</td>
+</tr>
+<tr>
+<td>Uses</td>
+<td><code>range_170</code> macro</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="type-90-75mm-chi-nu">Type 90 75mm (Chi-Nu)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>180</td>
+<td>225</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>Uses</td>
+<td><code>range_180</code> macro</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="type-5-75mm-chi-to-chi-ri">Type 5 75mm (Chi-To, Chi-Ri)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>200</td>
+<td>250</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>Uses</td>
+<td><code>range_200</code> macro</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="finnish-tank-guns">Finnish Tank Guns</h2>
+<p>Finnish forces use captured and purchased equipment, inheriting the range values from their origin nations (Soviet, German, British, Swedish).</p>
+<hr />
+<h1 id="armor-penetration-tables">Armor Penetration Tables</h1>
+<p>This section documents the armor penetration values at various ranges for tank guns. Penetration values are in mm of RHA (Rolled Homogeneous Armor) at 0° impact angle.</p>
+<h2 id="penetration-falloff-system">Penetration Falloff System</h2>
+<p>FCRO uses a sophisticated penetration curve system with values at key distance brackets:
+- <strong>10m</strong>: Point-blank (slightly higher than 30m due to velocity)
+- <strong>30m</strong>: Close range baseline
+- <strong>100m</strong>: Short engagement
+- <strong>155m</strong>: Medium engagement
+- <strong>205m</strong>: Long engagement
+- <strong>250m</strong>: Maximum range</p>
+<h2 id="german-tank-gun-penetration">German Tank Gun Penetration</h2>
+<h3 id="75mm-kwk-42-l70-panther_1">75mm KwK 42 L/70 (Panther)</h3>
+<table>
+<thead>
+<tr>
+<th>Distance</th>
+<th>Pzgr.39/42 (APCBC-HE)</th>
+<th>Pzgr.40/42 (APCR)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>30m</td>
+<td>185mm</td>
+<td>265mm</td>
+</tr>
+<tr>
+<td>100m</td>
+<td>168mm</td>
+<td>234mm</td>
+</tr>
+<tr>
+<td>155m</td>
+<td>149mm</td>
+<td>199mm</td>
+</tr>
+<tr>
+<td>205m</td>
+<td>132mm</td>
+<td>170mm</td>
+</tr>
+<tr>
+<td>250m</td>
+<td>116mm</td>
+<td>145mm</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Velocity:</strong> AP 935 m/s | APCR 1130 m/s
+<strong>Post-Penetration Damage:</strong> 200</p>
+<h3 id="88mm-kwk-36-l56-tiger-i_1">88mm KwK 36 L/56 (Tiger I)</h3>
+<table>
+<thead>
+<tr>
+<th>Distance</th>
+<th>Pzgr.39 (APCBC-HE)</th>
+<th>Pzgr.40 (APCR)</th>
+<th>Gr.39 Hl (HEAT)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>30m</td>
+<td>162mm</td>
+<td>219mm</td>
+<td>110mm</td>
+</tr>
+<tr>
+<td>100m</td>
+<td>151mm</td>
+<td>200mm</td>
+<td>110mm</td>
+</tr>
+<tr>
+<td>155m</td>
+<td>138mm</td>
+<td>179mm</td>
+<td>110mm</td>
+</tr>
+<tr>
+<td>205m</td>
+<td>126mm</td>
+<td>160mm</td>
+<td>110mm</td>
+</tr>
+<tr>
+<td>250m</td>
+<td>116mm</td>
+<td>143mm</td>
+<td>110mm</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Velocity:</strong> AP 780 m/s | APCR 930 m/s | HEAT 600 m/s
+<strong>Post-Penetration Damage:</strong> 240</p>
+<h3 id="88mm-kwk-43-l71-tiger-ii-nashorn_1">88mm KwK 43 L/71 (Tiger II, Nashorn)</h3>
+<table>
+<thead>
+<tr>
+<th>Distance</th>
+<th>Pzgr.39 (APCBC-HE)</th>
+<th>Pzgr.40 (APCR)</th>
+<th>HEAT</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>30m</td>
+<td>232mm</td>
+<td>304mm</td>
+<td>110mm</td>
+</tr>
+<tr>
+<td>100m</td>
+<td>219mm</td>
+<td>282mm</td>
+<td>110mm</td>
+</tr>
+<tr>
+<td>155m</td>
+<td>204mm</td>
+<td>257mm</td>
+<td>110mm</td>
+</tr>
+<tr>
+<td>205m</td>
+<td>190mm</td>
+<td>234mm</td>
+<td>110mm</td>
+</tr>
+<tr>
+<td>250m</td>
+<td>176mm</td>
+<td>213mm</td>
+<td>110mm</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Velocity:</strong> AP 1000 m/s | APCR 1130 m/s
+<strong>Post-Penetration Damage:</strong> 240</p>
+<h2 id="soviet-tank-gun-penetration">Soviet Tank Gun Penetration</h2>
+<h3 id="76mm-f-34-t-3476-kv-1_1">76mm F-34 (T-34/76, KV-1)</h3>
+<table>
+<thead>
+<tr>
+<th>Distance</th>
+<th>BR-350A (APHE)</th>
+<th>BR-350B (APHEBC)</th>
+<th>BR-350P (APCR)</th>
+<th>BP-350A (HEAT)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>30m</td>
+<td>75mm</td>
+<td>82mm</td>
+<td>130mm</td>
+<td>75mm</td>
+</tr>
+<tr>
+<td>100m</td>
+<td>66mm</td>
+<td>74mm</td>
+<td>92mm</td>
+<td>75mm</td>
+</tr>
+<tr>
+<td>155m</td>
+<td>57mm</td>
+<td>65mm</td>
+<td>60mm</td>
+<td>75mm</td>
+</tr>
+<tr>
+<td>205m</td>
+<td>52mm</td>
+<td>59mm</td>
+<td>39mm</td>
+<td>75mm</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Velocity:</strong> APHE 655 m/s | APCR 955 m/s
+<strong>Post-Penetration Damage:</strong> 200</p>
+<h3 id="85mm-zis-s-53-t-3485">85mm ZiS-S-53 (T-34/85)</h3>
+<table>
+<thead>
+<tr>
+<th>Distance</th>
+<th>BR-365K (APHE)</th>
+<th>BR-365 (APHEBC)</th>
+<th>BR-367 (APCBC)</th>
+<th>BR-365P (APCR)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>30m</td>
+<td>142mm</td>
+<td>122mm</td>
+<td>164mm</td>
+<td>175mm</td>
+</tr>
+<tr>
+<td>100m</td>
+<td>125mm</td>
+<td>116mm</td>
+<td>154mm</td>
+<td>136mm</td>
+</tr>
+<tr>
+<td>155m</td>
+<td>107mm</td>
+<td>105mm</td>
+<td>134mm</td>
+<td>100mm</td>
+</tr>
+<tr>
+<td>205m</td>
+<td>92mm</td>
+<td>96mm</td>
+<td>115mm</td>
+<td>73mm</td>
+</tr>
+<tr>
+<td>250m</td>
+<td>78mm</td>
+<td>88mm</td>
+<td>96mm</td>
+<td>54mm</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Velocity:</strong> AP 792 m/s | APCR 1050 m/s
+<strong>Post-Penetration Damage:</strong> 230</p>
+<h3 id="122mm-d-25t-is-2">122mm D-25T (IS-2)</h3>
+<table>
+<thead>
+<tr>
+<th>Distance</th>
+<th>BR-471 (APHE)</th>
+<th>BR-471B (APHEBC)</th>
+<th>BR-471D (APCBC)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>30m</td>
+<td>195mm</td>
+<td>196mm</td>
+<td>230mm</td>
+</tr>
+<tr>
+<td>100m</td>
+<td>177mm</td>
+<td>179mm</td>
+<td>215mm</td>
+</tr>
+<tr>
+<td>155m</td>
+<td>157mm</td>
+<td>159mm</td>
+<td>200mm</td>
+</tr>
+<tr>
+<td>205m</td>
+<td>140mm</td>
+<td>142mm</td>
+<td>186mm</td>
+</tr>
+<tr>
+<td>250m</td>
+<td>124mm</td>
+<td>126mm</td>
+<td>173mm</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Velocity:</strong> AP 781 m/s
+<strong>Post-Penetration Damage:</strong> 320
+<strong>Reload:</strong> 20 seconds</p>
+<h2 id="american-tank-gun-penetration">American Tank Gun Penetration</h2>
+<h3 id="75mm-m3-m4-sherman">75mm M3 (M4 Sherman)</h3>
+<table>
+<thead>
+<tr>
+<th>Distance</th>
+<th>AP M72</th>
+<th>APC M61 (inert/HE)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>30m</td>
+<td>109mm</td>
+<td>88mm</td>
+</tr>
+<tr>
+<td>100m</td>
+<td>92mm</td>
+<td>81mm</td>
+</tr>
+<tr>
+<td>155m</td>
+<td>76mm</td>
+<td>73mm</td>
+</tr>
+<tr>
+<td>205m</td>
+<td>62mm</td>
+<td>65mm</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Velocity:</strong> AP 619 m/s
+<strong>Post-Penetration Damage:</strong> 200</p>
+<h3 id="76mm-m1a1-m4a1-76w-m18">76mm M1A1 (M4A1 76W, M18)</h3>
+<table>
+<thead>
+<tr>
+<th>Distance</th>
+<th>M79 AP</th>
+<th>M62 APC</th>
+<th>T-4/M93 HVAP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>30m</td>
+<td>154mm</td>
+<td>125mm</td>
+<td>239mm</td>
+</tr>
+<tr>
+<td>100m</td>
+<td>131mm</td>
+<td>116mm</td>
+<td>208mm</td>
+</tr>
+<tr>
+<td>155m</td>
+<td>107mm</td>
+<td>105mm</td>
+<td>175mm</td>
+</tr>
+<tr>
+<td>205m</td>
+<td>88mm</td>
+<td>95mm</td>
+<td>147mm</td>
+</tr>
+<tr>
+<td>250m</td>
+<td>72mm</td>
+<td>86mm</td>
+<td>124mm</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Velocity:</strong> AP 792 m/s | HVAP 1036 m/s
+<strong>Post-Penetration Damage:</strong> 200</p>
+<h3 id="90mm-m3-m26-pershing-m36_1">90mm M3 (M26 Pershing, M36)</h3>
+<table>
+<thead>
+<tr>
+<th>Distance</th>
+<th>M77 AP</th>
+<th>T33 APBC</th>
+<th>M82 APC</th>
+<th>T30E16 HVAP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>30m</td>
+<td>188mm</td>
+<td>164mm</td>
+<td>169mm</td>
+<td>306mm</td>
+</tr>
+<tr>
+<td>100m</td>
+<td>163mm</td>
+<td>158mm</td>
+<td>164mm</td>
+<td>278mm</td>
+</tr>
+<tr>
+<td>155m</td>
+<td>137mm</td>
+<td>152mm</td>
+<td>151mm</td>
+<td>246mm</td>
+</tr>
+<tr>
+<td>205m</td>
+<td>115mm</td>
+<td>146mm</td>
+<td>138mm</td>
+<td>218mm</td>
+</tr>
+<tr>
+<td>250m</td>
+<td>96mm</td>
+<td>140mm</td>
+<td>127mm</td>
+<td>193mm</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Velocity:</strong> AP 823 m/s | APBC 853 m/s | HVAP 1018 m/s
+<strong>Post-Penetration Damage:</strong> 240
+<strong>Note:</strong> T33 APBC designed to defeat sloped armor (Panther glacis)</p>
+<h2 id="british-tank-gun-penetration">British Tank Gun Penetration</h2>
+<h3 id="qf-17-pounder-firefly-achilles-archer">QF 17-pounder (Firefly, Achilles, Archer)</h3>
+<table>
+<thead>
+<tr>
+<th>Distance</th>
+<th>Shot Mk.6 AP</th>
+<th>Shot Mk.4 APC</th>
+<th>Shot Mk.8 APCBC</th>
+<th>SV Mk.1 APDS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>30m</td>
+<td>171mm</td>
+<td>171mm</td>
+<td>190mm</td>
+<td>228mm</td>
+</tr>
+<tr>
+<td>100m</td>
+<td>168mm</td>
+<td>168mm</td>
+<td>187mm</td>
+<td>226mm</td>
+</tr>
+<tr>
+<td>155m</td>
+<td>155mm</td>
+<td>155mm</td>
+<td>172mm</td>
+<td>207mm</td>
+</tr>
+<tr>
+<td>205m</td>
+<td>139mm</td>
+<td>139mm</td>
+<td>155mm</td>
+<td>189mm</td>
+</tr>
+<tr>
+<td>250m</td>
+<td>126mm</td>
+<td>126mm</td>
+<td>140mm</td>
+<td>159mm</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Velocity:</strong> AP 900 m/s | APDS 1200 m/s
+<strong>Post-Penetration Damage:</strong> 200</p>
+<hr />
+<h1 id="ammunition-types">Ammunition Types</h1>
+<h2 id="ap-armor-piercing-shell-types">AP (Armor Piercing) Shell Types</h2>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Full Name</th>
+<th>HE Filler</th>
+<th>Slope Performance</th>
+<th>Post-Pen Damage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AP</td>
+<td>Armor Piercing</td>
+<td>None</td>
+<td>Poor</td>
+<td>1.0x</td>
+</tr>
+<tr>
+<td>APC</td>
+<td>AP Capped</td>
+<td>None</td>
+<td>Good</td>
+<td>1.0x</td>
+</tr>
+<tr>
+<td>APHE</td>
+<td>AP High-Explosive</td>
+<td>Yes</td>
+<td>Poor</td>
+<td>1.25x</td>
+</tr>
+<tr>
+<td>APBC</td>
+<td>AP Ballistic Cap</td>
+<td>None</td>
+<td>Good</td>
+<td>1.0x</td>
+</tr>
+<tr>
+<td>APCBC</td>
+<td>AP Capped Ballistic Cap</td>
+<td>None</td>
+<td>Excellent</td>
+<td>1.0x</td>
+</tr>
+<tr>
+<td>APCBC-HE</td>
+<td>APCBC with HE filler</td>
+<td>Yes</td>
+<td>Excellent</td>
+<td>1.25x</td>
+</tr>
+<tr>
+<td>APHEBC</td>
+<td>APHE with Ballistic Cap</td>
+<td>Yes</td>
+<td>Good</td>
+<td>1.25x</td>
+</tr>
+<tr>
+<td>APCR</td>
+<td>AP Composite Rigid</td>
+<td>None</td>
+<td>Very Poor</td>
+<td>1.0x</td>
+</tr>
+<tr>
+<td>HVAP</td>
+<td>High-Velocity AP</td>
+<td>None</td>
+<td>Very Poor</td>
+<td>1.0x</td>
+</tr>
+<tr>
+<td>APDS</td>
+<td>AP Discarding Sabot</td>
+<td>None</td>
+<td>Moderate</td>
+<td>1.0x</td>
+</tr>
+<tr>
+<td>HEAT</td>
+<td>High-Explosive AT</td>
+<td>Chemical</td>
+<td>None (fixed)</td>
+<td>1.25x</td>
+</tr>
+</tbody>
+</table>
+<h2 id="slope-modifiers-by-shell-type">Slope Modifiers by Shell Type</h2>
+<p>APCR/HVAP suffers heavily against sloped armor:</p>
+<table>
+<thead>
+<tr>
+<th>Angle</th>
+<th>AP/APC</th>
+<th>APCR (≤76mm)</th>
+<th>APCR (&gt;76mm)</th>
+<th>APDS</th>
+<th>HEAT</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0°</td>
+<td>1.0x</td>
+<td>1.0x</td>
+<td>1.0x</td>
+<td>1.0x</td>
+<td>1.0x</td>
+</tr>
+<tr>
+<td>30°</td>
+<td>1.36x</td>
+<td>1.36x</td>
+<td>1.29x</td>
+<td>1.23x</td>
+<td>1.0x</td>
+</tr>
+<tr>
+<td>45°</td>
+<td>2.28x</td>
+<td>2.28x</td>
+<td>2.14x</td>
+<td>1.82x</td>
+<td>1.0x</td>
+</tr>
+<tr>
+<td>60°</td>
+<td>4.23x</td>
+<td>4.23x</td>
+<td>4.58x</td>
+<td>3.54x</td>
+<td>1.0x</td>
+</tr>
+<tr>
+<td>75°</td>
+<td>8.52x</td>
+<td>8.52x</td>
+<td>12.81x</td>
+<td>9.57x</td>
+<td>1.0x</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Key Insight:</strong> HEAT shells ignore slope entirely - excellent against sloped targets but lower base penetration.</p>
+<hr />
+<h1 id="grenades-explosives">Grenades &amp; Explosives</h1>
+<h2 id="hand-grenades">Hand Grenades</h2>
+<h3 id="anti-personnel-grenade-base-pattern">Anti-Personnel Grenade (Base Pattern)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Throw Range</td>
+<td>22m</td>
+<td>22m</td>
+<td>~176m IRL</td>
+</tr>
+<tr>
+<td>Prep Time</td>
+<td>4.75s</td>
+<td>4.75s</td>
+<td>Pull pin + throw</td>
+</tr>
+<tr>
+<td>Lethal Radius</td>
+<td>3-6m</td>
+<td>2-5m</td>
+<td>Tighter, more lethal core</td>
+</tr>
+<tr>
+<td>Wounding Radius</td>
+<td>-------</td>
+<td>5-12m</td>
+<td>Extended fragmentation</td>
+</tr>
+<tr>
+<td>Casualty Radius</td>
+<td>-------</td>
+<td>10-18m</td>
+<td>Light wounds</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Blast Energy:</strong>
+| Zone                | Energy | Range  |
+| ------------------- | ------ | ------ |
+| Core (lethal)       | 2.5    | 2-5m   |
+| Mid (wounding)      | 1.4    | 5-12m  |
+| Outer (suppression) | 0.6    | 10-18m |</p>
+<p><strong>Applies to:</strong>
+- F1 Grenade (Soviet)
+- RGD-33 (Soviet)
+- Model 24 Stielhandgranate (German)
+- Model 39 Eihandgranate (German)
+- Mk.II Pineapple (USA)
+- Mills Bomb No.36 (British)</p>
+<h2 id="satchel-charges">Satchel Charges</h2>
+<h3 id="m32-satchel-charge">M32 Satchel Charge</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Explosive Mass</td>
+<td>2.0kg</td>
+<td>2.0kg</td>
+<td>TNT equivalent</td>
+</tr>
+<tr>
+<td>Prep Time</td>
+<td>5.5s</td>
+<td>5.5s</td>
+<td>Arm + throw</td>
+</tr>
+<tr>
+<td>Vehicle Damage Zone</td>
+<td>0.3-0.5m</td>
+<td>0.3-0.5m</td>
+<td>Direct contact</td>
+</tr>
+<tr>
+<td>Lethal Radius</td>
+<td>1-2m</td>
+<td>1.5-3m</td>
+<td>+50%</td>
+</tr>
+<tr>
+<td>Casualty Radius</td>
+<td>4.5-6m</td>
+<td>5-9m</td>
+<td>+50%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Blast Energy:</strong>
+| Zone  | Vanilla | FCRO | Change |
+| ----- | ------- | ---- | ------ |
+| Core  | 7.6     | 10.0 | +32%   |
+| Mid   | 1.5     | 3.0  | +100%  |
+| Outer | 1.0     | 1.5  | +50%   |</p>
+<hr />
+<h2 id="mines">Mines</h2>
+<h3 id="s-mine-bouncing-betty">S-Mine (Bouncing Betty)</h3>
+<p>The most lethal AP mine of WWII - bounces 1m before detonating 360 steel balls.</p>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lethal Radius</td>
+<td>0.6-2m</td>
+<td>0.8-3m</td>
+<td>+50%</td>
+</tr>
+<tr>
+<td>Kill Radius</td>
+<td>3-5m</td>
+<td>4-10m</td>
+<td>+100%</td>
+</tr>
+<tr>
+<td>Wounding Radius</td>
+<td>6-8m</td>
+<td>10-18m</td>
+<td>+125%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Blast Energy:</strong>
+| Zone  | Vanilla | FCRO | Change |
+| ----- | ------- | ---- | ------ |
+| Core  | 1.0     | 3.0  | +200%  |
+| Mid   | 0.51    | 1.5  | +194%  |
+| Outer | 0.25    | 0.7  | +180%  |</p>
+<h3 id="anti-tank-mine-tellermine">Anti-Tank Mine (Tellermine)</h3>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vehicle Damage Zone</td>
+<td>0.6-1.0m</td>
+<td>0.6-1.0m</td>
+<td>Track/wheel contact</td>
+</tr>
+<tr>
+<td>Lethal Radius (infantry)</td>
+<td>2-3m</td>
+<td>2.5-4m</td>
+<td>+33%</td>
+</tr>
+<tr>
+<td>Casualty Radius</td>
+<td>6-8m</td>
+<td>7-10m</td>
+<td>+25%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Blast Energy:</strong>
+| Zone  | Vanilla | FCRO | Change |
+| ----- | ------- | ---- | ------ |
+| Core  | 9.0     | 12.0 | +33%   |
+| Mid   | 3.0     | 4.5  | +50%   |
+| Outer | 1.0     | 1.5  | +50%   |</p>
+<hr />
+<h1 id="veterancy-system">Veterancy System</h1>
+<h2 id="experience-levels">Experience Levels</h2>
+<p>FCRO emphasizes skill-based advantages over health bonuses. Experienced soldiers are significantly more effective, but not bullet-sponges.</p>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>Raw Recruit</td>
+<td>No bonuses</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Green</td>
+<td>Basic training, first combat</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Experienced</td>
+<td>Survived several engagements</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Regular</td>
+<td>Battle-hardened</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Veteran</td>
+<td>Core of the army</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Hardened</td>
+<td>Elite combat effectiveness</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Crack</td>
+<td>Among the best</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Elite</td>
+<td>The best of the best</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Legendary</td>
+<td>Near superhuman</td>
+</tr>
+</tbody>
+</table>
+<h2 id="veterancy-bonuses-by-level">Veterancy Bonuses by Level</h2>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Health</th>
+<th>Weapon Reload</th>
+<th>Weapon Skill</th>
+<th>Cannon</th>
+<th>Tank/Vehicle</th>
+<th>Stamina</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>+0%</td>
+<td>+0%</td>
+<td>+0</td>
+<td>+0%</td>
+<td>+0%</td>
+<td>+0%</td>
+</tr>
+<tr>
+<td>1</td>
+<td>+0%</td>
+<td>+12%</td>
+<td>+1</td>
+<td>+8%</td>
+<td>+5%</td>
+<td>+10%</td>
+</tr>
+<tr>
+<td>2</td>
+<td>+0%</td>
+<td>+18%</td>
+<td>+1</td>
+<td>+15%</td>
+<td>+12%</td>
+<td>+15%</td>
+</tr>
+<tr>
+<td>3</td>
+<td>+0%</td>
+<td>+25%</td>
+<td>+2</td>
+<td>+22%</td>
+<td>+18%</td>
+<td>+20%</td>
+</tr>
+<tr>
+<td>4</td>
+<td>+5%</td>
+<td>+30%</td>
+<td>+2</td>
+<td>+30%</td>
+<td>+25%</td>
+<td>+25%</td>
+</tr>
+<tr>
+<td>5</td>
+<td>+8%</td>
+<td>+35%</td>
+<td>+3</td>
+<td>+38%</td>
+<td>+32%</td>
+<td>+35%</td>
+</tr>
+<tr>
+<td>6</td>
+<td>+10%</td>
+<td>+38%</td>
+<td>+3</td>
+<td>+45%</td>
+<td>+38%</td>
+<td>+40%</td>
+</tr>
+<tr>
+<td>7</td>
+<td>+12%</td>
+<td>+42%</td>
+<td>+4</td>
+<td>+52%</td>
+<td>+45%</td>
+<td>+50%</td>
+</tr>
+<tr>
+<td>8</td>
+<td>+15%</td>
+<td>+45%</td>
+<td>+5</td>
+<td>+60%</td>
+<td>+50%</td>
+<td>+60%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Key Changes from Vanilla:</strong>
+- Health bonuses drastically reduced (was up to +25%)
+- Weapon skill bonuses increased (experience = accuracy)
+- Weapon reload speed increased (muscle memory)
+- Tank/vehicle operation bonuses increased</p>
+<h2 id="rifle-skill-by-level-stance">Rifle Skill by Level &amp; Stance</h2>
+<p>Accuracy multiplier (higher = more accurate):</p>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Standing</th>
+<th>Crouched</th>
+<th>Prone</th>
+<th>Cover</th>
+<th>Vehicle</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 (Green)</td>
+<td>0.50</td>
+<td>0.62</td>
+<td>0.75</td>
+<td>0.78</td>
+<td>1.10</td>
+</tr>
+<tr>
+<td>2</td>
+<td>0.60</td>
+<td>0.72</td>
+<td>0.88</td>
+<td>0.90</td>
+<td>1.22</td>
+</tr>
+<tr>
+<td>3 (Exp.)</td>
+<td>0.72</td>
+<td>0.85</td>
+<td>1.02</td>
+<td>1.05</td>
+<td>1.38</td>
+</tr>
+<tr>
+<td>4 (Vet.)</td>
+<td>0.88</td>
+<td>1.02</td>
+<td>1.18</td>
+<td>1.22</td>
+<td>1.55</td>
+</tr>
+<tr>
+<td>5</td>
+<td>1.05</td>
+<td>1.20</td>
+<td>1.35</td>
+<td>1.40</td>
+<td>1.72</td>
+</tr>
+<tr>
+<td>6 (Crack)</td>
+<td>1.25</td>
+<td>1.42</td>
+<td>1.55</td>
+<td>1.60</td>
+<td>1.92</td>
+</tr>
+<tr>
+<td>7 (Elite)</td>
+<td>1.45</td>
+<td>1.62</td>
+<td>1.78</td>
+<td>1.85</td>
+<td>2.15</td>
+</tr>
+<tr>
+<td>8 (Legend)</td>
+<td>1.68</td>
+<td>1.85</td>
+<td>2.02</td>
+<td>2.10</td>
+<td>2.40</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Key Insight:</strong> 
+- A Legendary soldier in cover (2.10) is 4.2x more accurate than a Green soldier standing (0.50)
+- Prone/cover provides massive benefits - always use cover!
+- Vehicle accuracy is higher numerically but represents less stable platform</p>
+<hr />
+<h1 id="vehicle-damage-system">Vehicle Damage System</h1>
+<h2 id="penetration-effects-by-shell-caliber">Penetration Effects by Shell Caliber</h2>
+<p>When a shell penetrates armor, crew casualties are calculated:</p>
+<h3 id="heavy-tanks-tiger-is-2-etc">Heavy Tanks (Tiger, IS-2, etc.)</h3>
+<table>
+<thead>
+<tr>
+<th>Shell Type</th>
+<th>Crew Kill Chance</th>
+<th>Crew Shock Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AT Rifle (14.5mm)</td>
+<td>15%</td>
+<td>3s</td>
+</tr>
+<tr>
+<td>20-25mm Auto-cannon</td>
+<td>20%</td>
+<td>3s</td>
+</tr>
+<tr>
+<td>37-40mm (no filler)</td>
+<td>35%</td>
+<td>4s</td>
+</tr>
+<tr>
+<td>37-47mm (HE filler)</td>
+<td>60%</td>
+<td>6s</td>
+</tr>
+<tr>
+<td>50-57mm (no filler)</td>
+<td>60%</td>
+<td>6s</td>
+</tr>
+<tr>
+<td>50-57mm (HE filler)</td>
+<td>75%</td>
+<td>7s</td>
+</tr>
+<tr>
+<td>75-76mm (no filler)</td>
+<td>70%</td>
+<td>7s</td>
+</tr>
+<tr>
+<td>75-76mm (HE filler)</td>
+<td>85%</td>
+<td>8s</td>
+</tr>
+<tr>
+<td>75-76mm HEAT</td>
+<td>85%</td>
+<td>8s</td>
+</tr>
+<tr>
+<td>88-105mm (no filler)</td>
+<td>85%</td>
+<td>8s</td>
+</tr>
+<tr>
+<td>88-105mm (HE filler)</td>
+<td>95%</td>
+<td>9s</td>
+</tr>
+<tr>
+<td>122-128mm</td>
+<td>100%</td>
+<td>14s</td>
+</tr>
+<tr>
+<td>150-152mm</td>
+<td>100%</td>
+<td>15s</td>
+</tr>
+<tr>
+<td>Bazooka/Panzerschreck</td>
+<td>80%</td>
+<td>11s</td>
+</tr>
+<tr>
+<td>Magnetic AT Grenade</td>
+<td>75%</td>
+<td>9s</td>
+</tr>
+</tbody>
+</table>
+<h3 id="key-changes-from-vanilla">Key Changes from Vanilla:</h3>
+<ul>
+<li>Crew kill chances increased across the board</li>
+<li>APHE shells now properly devastating</li>
+<li>Crew shock times extended for suppression effect</li>
+<li>Large caliber shells near-certain crew kills</li>
+</ul>
+<h2 id="blast-damage-to-vehicles">Blast Damage to Vehicles</h2>
+<p>HE shells and explosions affect buttoned-up crew:</p>
+<table>
+<thead>
+<tr>
+<th>Blast Energy</th>
+<th>Example</th>
+<th>Crew Shock Chance</th>
+<th>Crew Kill Chance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>9+</td>
+<td>150mm HE, bombs</td>
+<td>100%</td>
+<td>70%</td>
+</tr>
+<tr>
+<td>7-9</td>
+<td>100-130mm HE</td>
+<td>100%</td>
+<td>40%</td>
+</tr>
+<tr>
+<td>5-7</td>
+<td>85-93mm HE, AT mines</td>
+<td>90%</td>
+<td>15%</td>
+</tr>
+<tr>
+<td>3.5-5</td>
+<td>75-77mm HE</td>
+<td>70%</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>2-3.5</td>
+<td>37-65mm HE, mortars</td>
+<td>25%</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>&lt;2</td>
+<td>AP mines, grenades</td>
+<td>0%</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<hr />
+<h1 id="vision-spotting-system">Vision &amp; Spotting System</h1>
+<p>FCRO reduces spotting distances by ~20% to increase ambush effectiveness and reward proper concealment.</p>
+<h2 id="human-spotting-distances">Human Spotting Distances</h2>
+<p>Base spotting distance multipliers (as percentage of max vision range):</p>
+<table>
+<thead>
+<tr>
+<th>Condition</th>
+<th>Vanilla</th>
+<th>FCRO</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Standing</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Moving</td>
+<td>100%</td>
+<td>80%</td>
+<td>-20%</td>
+</tr>
+<tr>
+<td>Still</td>
+<td>100%</td>
+<td>80%</td>
+<td>-20%</td>
+</tr>
+<tr>
+<td>Stealth</td>
+<td>75%</td>
+<td>60%</td>
+<td>-20%</td>
+</tr>
+<tr>
+<td>Still + Stealth</td>
+<td>50%</td>
+<td>40%</td>
+<td>-20%</td>
+</tr>
+<tr>
+<td><strong>Crouched</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Moving</td>
+<td>100%</td>
+<td>80%</td>
+<td>-20%</td>
+</tr>
+<tr>
+<td>Still</td>
+<td>100%</td>
+<td>80%</td>
+<td>-20%</td>
+</tr>
+<tr>
+<td>Stealth</td>
+<td>50%</td>
+<td>40%</td>
+<td>-20%</td>
+</tr>
+<tr>
+<td>Still + Stealth</td>
+<td>50%</td>
+<td>40%</td>
+<td>-20%</td>
+</tr>
+<tr>
+<td><strong>Prone</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Moving</td>
+<td>50%</td>
+<td>40%</td>
+<td>-20%</td>
+</tr>
+<tr>
+<td>Still</td>
+<td>50%</td>
+<td>40%</td>
+<td>-20%</td>
+</tr>
+<tr>
+<td>Stealth</td>
+<td>30%</td>
+<td>25%</td>
+<td>-17%</td>
+</tr>
+<tr>
+<td>Still + Stealth</td>
+<td>25%</td>
+<td>20%</td>
+<td>-20%</td>
+</tr>
+<tr>
+<td><strong>In Cover</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Standing</td>
+<td>100%</td>
+<td>80%</td>
+<td>-20%</td>
+</tr>
+<tr>
+<td>Crouched</td>
+<td>100%</td>
+<td>80%</td>
+<td>-20%</td>
+</tr>
+<tr>
+<td>Prone</td>
+<td>50%</td>
+<td>40%</td>
+<td>-20%</td>
+</tr>
+<tr>
+<td>Cover + Stealth</td>
+<td>50%</td>
+<td>40%</td>
+<td>-20%</td>
+</tr>
+<tr>
+<td>Prone + Cover + Stealth</td>
+<td>25%</td>
+<td>20%</td>
+<td>-20%</td>
+</tr>
+</tbody>
+</table>
+<h2 id="silenced-weapons-zero-detection">Silenced Weapons - Zero Detection</h2>
+<p>These weapons produce no firing signature:
+- Welrod (British)
+- De Lisle Carbine (British)
+- HDM Pistol (USA)
+- Mosin-Nagant w/Silencer (Soviet)
+- Nagant M1895 w/Silencer (Soviet)</p>
+<h2 id="vehicle-spotting-categories">Vehicle Spotting Categories</h2>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Examples</th>
+<th>Base Distance</th>
+<th>Moving Bonus</th>
+<th>Firing Bonus</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Level 0</td>
+<td>Goliath</td>
+<td>100m</td>
+<td>+0m</td>
+<td>+100m</td>
+</tr>
+<tr>
+<td>Level 1</td>
+<td>Motorcycles, Jeeps</td>
+<td>100m</td>
+<td>+50m</td>
+<td>+170m</td>
+</tr>
+<tr>
+<td>Level 2</td>
+<td>Armored Cars, Trucks</td>
+<td>100m</td>
+<td>+50m</td>
+<td>+170m</td>
+</tr>
+<tr>
+<td>Level 3</td>
+<td>Light Tanks</td>
+<td>100m</td>
+<td>+50m</td>
+<td>+170m</td>
+</tr>
+<tr>
+<td>Level 4</td>
+<td>Medium Tanks, MLRS</td>
+<td>100m</td>
+<td>+50m</td>
+<td>+170m</td>
+</tr>
+<tr>
+<td>Level 5</td>
+<td>Heavy Tanks</td>
+<td>100m</td>
+<td>+50m</td>
+<td>+170m</td>
+</tr>
+<tr>
+<td>Level 6</td>
+<td>SPGs (105mm+)</td>
+<td>100m</td>
+<td>+50m</td>
+<td>+170m</td>
+</tr>
+</tbody>
+</table>
+<h2 id="artillery-spotting-cannons">Artillery Spotting (Cannons)</h2>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Gun Type</th>
+<th>Firing Distance</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cannon 0</td>
+<td>AT Rifles</td>
+<td>100m</td>
+<td>+150m when firing</td>
+</tr>
+<tr>
+<td>Cannon 1</td>
+<td>20-37mm</td>
+<td>100m</td>
+<td>+150m when firing</td>
+</tr>
+<tr>
+<td>Cannon 2</td>
+<td>40-50mm</td>
+<td>100m</td>
+<td>+150m when firing</td>
+</tr>
+<tr>
+<td>Cannon 3</td>
+<td>57-76mm</td>
+<td>100m</td>
+<td>+150m when firing</td>
+</tr>
+<tr>
+<td>Cannon 4</td>
+<td>85-90mm</td>
+<td>100m</td>
+<td>+150m when firing</td>
+</tr>
+<tr>
+<td>Cannon 5</td>
+<td>100-122mm</td>
+<td>100m</td>
+<td>+150m when firing</td>
+</tr>
+</tbody>
+</table>
+<h2 id="aircraft-spotting">Aircraft Spotting</h2>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Type</th>
+<th>Moving</th>
+<th>Firing</th>
+<th>Visible</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Plane 1</td>
+<td>Recon</td>
+<td>400m</td>
+<td>400m</td>
+<td>400m</td>
+</tr>
+<tr>
+<td>Plane 2</td>
+<td>Fighter/Bomber</td>
+<td>700m</td>
+<td>700m</td>
+<td>700m</td>
+</tr>
+</tbody>
+</table>
+<h2 id="detection-formula-summary">Detection Formula Summary</h2>
+<p><strong>Spotted Distance = Base × Stance Modifier × Movement Modifier × Cover Modifier × Stealth Modifier</strong></p>
+<p>Example: Infantry in cover, prone, using stealth:
+- Vanilla: 100m × 0.25 = 25m detection
+- FCRO: 80m × 0.20 = 16m detection (36% harder to spot!)</p>
+<hr />
+<h1 id="faction-weapon-comparisons">Faction Weapon Comparisons</h1>
+<h2 id="submachine-guns-comparison">Submachine Guns Comparison</h2>
+<p>All SMGs use the same base pattern with identical core stats:</p>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>All SMGs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>100m</td>
+</tr>
+<tr>
+<td>Damage</td>
+<td>70</td>
+</tr>
+<tr>
+<td>Spread Tolerance</td>
+<td>30%</td>
+</tr>
+<tr>
+<td>Motion Accuracy</td>
+<td>0.9x (bonus)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>By Nation:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Nation</th>
+<th>Weapons</th>
+<th>Mag Size</th>
+<th>Fire Rate</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Soviet</strong></td>
+<td>PPSh-41</td>
+<td>71 drum</td>
+<td>900 rpm</td>
+<td>Highest capacity</td>
+</tr>
+<tr>
+<td></td>
+<td>PPS-43</td>
+<td>35 box</td>
+<td>700 rpm</td>
+<td>More accurate</td>
+</tr>
+<tr>
+<td></td>
+<td>PPD-40</td>
+<td>71 drum</td>
+<td>800 rpm</td>
+<td>Early war</td>
+</tr>
+<tr>
+<td><strong>German</strong></td>
+<td>MP40</td>
+<td>32 box</td>
+<td>500 rpm</td>
+<td>Very controllable</td>
+</tr>
+<tr>
+<td></td>
+<td>MP38</td>
+<td>32 box</td>
+<td>500 rpm</td>
+<td>Same as MP40</td>
+</tr>
+<tr>
+<td></td>
+<td>MP28</td>
+<td>32 box</td>
+<td>500 rpm</td>
+<td>Early war</td>
+</tr>
+<tr>
+<td><strong>American</strong></td>
+<td>M1A1 Thompson</td>
+<td>20/30 box</td>
+<td>700 rpm</td>
+<td>Heavy, accurate</td>
+</tr>
+<tr>
+<td></td>
+<td>M3 Grease Gun</td>
+<td>30 box</td>
+<td>450 rpm</td>
+<td>Most controllable</td>
+</tr>
+<tr>
+<td><strong>British</strong></td>
+<td>Sten Mk.II</td>
+<td>32 box</td>
+<td>550 rpm</td>
+<td>Light, unreliable</td>
+</tr>
+<tr>
+<td></td>
+<td>Sten Mk.V</td>
+<td>32 box</td>
+<td>550 rpm</td>
+<td>Improved Sten</td>
+</tr>
+<tr>
+<td><strong>Finnish</strong></td>
+<td>Suomi KP/-31</td>
+<td>71 drum</td>
+<td>750 rpm</td>
+<td>Excellent quality</td>
+</tr>
+</tbody>
+</table>
+<h2 id="bolt-action-rifles-comparison">Bolt-Action Rifles Comparison</h2>
+<p>All bolt rifles use the same base pattern:</p>
+<table>
+<thead>
+<tr>
+<th>Stat</th>
+<th>All Bolt Rifles</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Range</td>
+<td>180m</td>
+</tr>
+<tr>
+<td>Damage</td>
+<td>110</td>
+</tr>
+<tr>
+<td>Fire Rate</td>
+<td>~40 rpm</td>
+</tr>
+<tr>
+<td>Motion Penalty</td>
+<td>1.2x</td>
+</tr>
+</tbody>
+</table>
+<p><strong>By Nation:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Nation</th>
+<th>Weapons</th>
+<th>Mag Size</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Soviet</strong></td>
+<td>Mosin-Nagant M91/30</td>
+<td>5</td>
+<td>Most common</td>
+</tr>
+<tr>
+<td><strong>German</strong></td>
+<td>Kar98k</td>
+<td>5</td>
+<td>Excellent optics compatibility</td>
+</tr>
+<tr>
+<td><strong>American</strong></td>
+<td>M1903 Springfield</td>
+<td>5</td>
+<td>Accurate</td>
+</tr>
+<tr>
+<td></td>
+<td>M1917 Enfield</td>
+<td>6</td>
+<td>Higher capacity</td>
+</tr>
+<tr>
+<td><strong>British</strong></td>
+<td>Lee-Enfield No.1 Mk.III</td>
+<td>10</td>
+<td>Fast bolt action</td>
+</tr>
+<tr>
+<td></td>
+<td>Lee-Enfield No.4 Mk.I</td>
+<td>10</td>
+<td>Faster, more accurate</td>
+</tr>
+<tr>
+<td><strong>Finnish</strong></td>
+<td>Mosin-Nagant M39</td>
+<td>5</td>
+<td>Improved accuracy</td>
+</tr>
+</tbody>
+</table>
+<p><strong>British Advantage:</strong> Lee-Enfield's 10-round magazine and fast bolt action allow trained soldiers to achieve higher practical fire rates.</p>
+<h2 id="semi-automatic-rifles-comparison">Semi-Automatic Rifles Comparison</h2>
+<table>
+<thead>
+<tr>
+<th>Nation</th>
+<th>Weapons</th>
+<th>Damage</th>
+<th>Range</th>
+<th>Mag Size</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Soviet</strong></td>
+<td>SVT-40</td>
+<td>110</td>
+<td>155m</td>
+<td>10</td>
+<td>Reliable</td>
+</tr>
+<tr>
+<td></td>
+<td>AVS-36</td>
+<td>110</td>
+<td>155m</td>
+<td>15</td>
+<td>Select-fire</td>
+</tr>
+<tr>
+<td><strong>German</strong></td>
+<td>Gewehr 43</td>
+<td>110</td>
+<td>155m</td>
+<td>10</td>
+<td>Accurate</td>
+</tr>
+<tr>
+<td><strong>American</strong></td>
+<td>M1 Garand</td>
+<td>110</td>
+<td>155m</td>
+<td>8</td>
+<td>Fast reload (en-bloc)</td>
+</tr>
+<tr>
+<td></td>
+<td>M1 Carbine</td>
+<td>70</td>
+<td>130m</td>
+<td>15</td>
+<td>Lightweight</td>
+</tr>
+<tr>
+<td></td>
+<td>M1A1 Carbine</td>
+<td>70</td>
+<td>130m</td>
+<td>15</td>
+<td>Folding stock</td>
+</tr>
+<tr>
+<td><strong>British</strong></td>
+<td>(Uses US weapons)</td>
+<td>------</td>
+<td>-----</td>
+<td>--------</td>
+<td>Lend-lease</td>
+</tr>
+</tbody>
+</table>
+<h2 id="machine-gun-comparison">Machine Gun Comparison</h2>
+<table>
+<thead>
+<tr>
+<th>Nation</th>
+<th>Weapon</th>
+<th>Type</th>
+<th>Range</th>
+<th>Damage</th>
+<th>Fire Rate</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Soviet</strong></td>
+<td>DP-28</td>
+<td>LMG</td>
+<td>140m</td>
+<td>110</td>
+<td>550 rpm</td>
+<td>Pan magazine</td>
+</tr>
+<tr>
+<td></td>
+<td>SG-43</td>
+<td>MMG</td>
+<td>140m</td>
+<td>110</td>
+<td>700 rpm</td>
+<td>Belt fed</td>
+</tr>
+<tr>
+<td></td>
+<td>DShK</td>
+<td>HMG</td>
+<td>180m</td>
+<td>220</td>
+<td>600 rpm</td>
+<td>12.7mm</td>
+</tr>
+<tr>
+<td><strong>German</strong></td>
+<td>MG34</td>
+<td>GPMG</td>
+<td>140m</td>
+<td>110</td>
+<td>900 rpm</td>
+<td>Very fast</td>
+</tr>
+<tr>
+<td></td>
+<td>MG42</td>
+<td>GPMG</td>
+<td>140m</td>
+<td>110</td>
+<td>1200 rpm</td>
+<td>Fastest in war</td>
+</tr>
+<tr>
+<td></td>
+<td>MG131</td>
+<td>HMG</td>
+<td>180m</td>
+<td>220</td>
+<td>900 rpm</td>
+<td>13mm</td>
+</tr>
+<tr>
+<td><strong>American</strong></td>
+<td>BAR</td>
+<td>LMG</td>
+<td>155m</td>
+<td>110</td>
+<td>500 rpm</td>
+<td>Portable</td>
+</tr>
+<tr>
+<td></td>
+<td>M1919A4</td>
+<td>MMG</td>
+<td>140m</td>
+<td>110</td>
+<td>500 rpm</td>
+<td>Belt fed</td>
+</tr>
+<tr>
+<td></td>
+<td>M2 Browning</td>
+<td>HMG</td>
+<td>180m</td>
+<td>220</td>
+<td>500 rpm</td>
+<td>.50 cal</td>
+</tr>
+<tr>
+<td><strong>British</strong></td>
+<td>Bren Mk.I</td>
+<td>LMG</td>
+<td>140m</td>
+<td>110</td>
+<td>500 rpm</td>
+<td>Accurate</td>
+</tr>
+<tr>
+<td></td>
+<td>Vickers</td>
+<td>MMG</td>
+<td>140m</td>
+<td>110</td>
+<td>500 rpm</td>
+<td>Water cooled</td>
+</tr>
+<tr>
+<td></td>
+<td>Vickers .50</td>
+<td>HMG</td>
+<td>180m</td>
+<td>220</td>
+<td>500 rpm</td>
+<td>12.7mm</td>
+</tr>
+</tbody>
+</table>
+<p><strong>German Advantage:</strong> MG42's 1200 rpm fire rate provides superior suppression.
+<strong>American Advantage:</strong> BAR is more portable than other squad automatics.</p>
+<h2 id="sniper-rifle-comparison">Sniper Rifle Comparison</h2>
+<table>
+<thead>
+<tr>
+<th>Nation</th>
+<th>Weapon</th>
+<th>Type</th>
+<th>Range</th>
+<th>Damage</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Soviet</strong></td>
+<td>Mosin PU</td>
+<td>Bolt</td>
+<td>200m</td>
+<td>130</td>
+<td>Standard</td>
+</tr>
+<tr>
+<td></td>
+<td>SVT-40 PU</td>
+<td>Semi</td>
+<td>180m</td>
+<td>110</td>
+<td>Faster follow-up</td>
+</tr>
+<tr>
+<td><strong>German</strong></td>
+<td>Kar98k ZF39</td>
+<td>Bolt</td>
+<td>200m</td>
+<td>130</td>
+<td>High magnification</td>
+</tr>
+<tr>
+<td></td>
+<td>Kar98k ZF41</td>
+<td>Bolt</td>
+<td>200m</td>
+<td>130</td>
+<td>Scout scope</td>
+</tr>
+<tr>
+<td></td>
+<td>Gewehr 43 ZF4</td>
+<td>Semi</td>
+<td>180m</td>
+<td>110</td>
+<td>Semi-auto</td>
+</tr>
+<tr>
+<td><strong>American</strong></td>
+<td>M1903A4</td>
+<td>Bolt</td>
+<td>200m</td>
+<td>130</td>
+<td>Standard</td>
+</tr>
+<tr>
+<td></td>
+<td>M1C/M1D Garand</td>
+<td>Semi</td>
+<td>180m</td>
+<td>110</td>
+<td>Semi-auto</td>
+</tr>
+<tr>
+<td><strong>British</strong></td>
+<td>No.4 Mk.I (T)</td>
+<td>Bolt</td>
+<td>200m</td>
+<td>130</td>
+<td>Excellent optics</td>
+</tr>
+<tr>
+<td><strong>Finnish</strong></td>
+<td>All variants</td>
+<td>Bolt</td>
+<td>200m</td>
+<td>130</td>
+<td>White death tradition</td>
+</tr>
+</tbody>
+</table>
+<h2 id="anti-tank-rifle-comparison">Anti-Tank Rifle Comparison</h2>
+<table>
+<thead>
+<tr>
+<th>Nation</th>
+<th>Weapon</th>
+<th>Range</th>
+<th>Armor Damage</th>
+<th>Caliber</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Soviet</strong></td>
+<td>PTRD-41</td>
+<td>160m</td>
+<td>55</td>
+<td>14.5mm</td>
+<td>Single shot</td>
+</tr>
+<tr>
+<td></td>
+<td>PTRS-41</td>
+<td>160m</td>
+<td>55</td>
+<td>14.5mm</td>
+<td>5-round semi-auto</td>
+</tr>
+<tr>
+<td><strong>German</strong></td>
+<td>Panzerbüchse 39</td>
+<td>160m</td>
+<td>55</td>
+<td>7.92mm</td>
+<td>Obsolete by '42</td>
+</tr>
+<tr>
+<td><strong>British</strong></td>
+<td>Boys AT Rifle</td>
+<td>160m</td>
+<td>55</td>
+<td>.55 cal</td>
+<td>Early war</td>
+</tr>
+<tr>
+<td><strong>Finnish</strong></td>
+<td>Lahti L-39</td>
+<td>160m</td>
+<td>55</td>
+<td>20mm</td>
+<td>Semi-auto, largest</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Soviet Advantage:</strong> 14.5mm has better penetration; PTRS allows rapid follow-up.
+<strong>Finnish Advantage:</strong> Lahti L-39's 20mm can damage light vehicles effectively.</p>
+<h2 id="bazookarpg-comparison">Bazooka/RPG Comparison</h2>
+<table>
+<thead>
+<tr>
+<th>Nation</th>
+<th>Weapon</th>
+<th>Range</th>
+<th>Penetration</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>American</strong></td>
+<td>M1 Bazooka</td>
+<td>90m</td>
+<td>80mm</td>
+<td>Early, 2.36"</td>
+</tr>
+<tr>
+<td></td>
+<td>M9 Bazooka</td>
+<td>90m</td>
+<td>110mm</td>
+<td>Improved warhead</td>
+</tr>
+<tr>
+<td></td>
+<td>M18 Recoilless</td>
+<td>115m</td>
+<td>90mm</td>
+<td>Crew-served</td>
+</tr>
+<tr>
+<td><strong>German</strong></td>
+<td>Panzerfaust 30</td>
+<td>40m</td>
+<td>200mm</td>
+<td>Disposable</td>
+</tr>
+<tr>
+<td></td>
+<td>Panzerfaust 60</td>
+<td>55m</td>
+<td>200mm</td>
+<td>Extended range</td>
+</tr>
+<tr>
+<td></td>
+<td>Panzerfaust 100</td>
+<td>70m</td>
+<td>220mm</td>
+<td>Latest model</td>
+</tr>
+<tr>
+<td></td>
+<td>Panzerschreck</td>
+<td>90m</td>
+<td>160mm</td>
+<td>Reloadable</td>
+</tr>
+<tr>
+<td><strong>British</strong></td>
+<td>PIAT</td>
+<td>90m</td>
+<td>100mm</td>
+<td>Spring-powered</td>
+</tr>
+<tr>
+<td><strong>Soviet</strong></td>
+<td>RPG-6</td>
+<td>25m</td>
+<td>100mm</td>
+<td>Thrown AT grenade</td>
+</tr>
+</tbody>
+</table>
+<p><strong>German Advantage:</strong> Panzerfaust has highest penetration and is disposable.
+<strong>American Advantage:</strong> Reloadable bazookas provide sustained AT capability.</p>
+<h2 id="tank-gun-penetration-summary">Tank Gun Penetration Summary</h2>
+<p>Best-in-class by nation at 100m range:</p>
+<table>
+<thead>
+<tr>
+<th>Nation</th>
+<th>Gun</th>
+<th>Caliber</th>
+<th>Best AP (mm)</th>
+<th>Best Premium (mm)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>German</strong></td>
+<td>KwK 43</td>
+<td>88mm</td>
+<td>219 (APCBC)</td>
+<td>282 (APCR)</td>
+</tr>
+<tr>
+<td><strong>Soviet</strong></td>
+<td>D-25T</td>
+<td>122mm</td>
+<td>177 (APHE)</td>
+<td>215 (APCBC)</td>
+</tr>
+<tr>
+<td><strong>American</strong></td>
+<td>90mm M3</td>
+<td>90mm</td>
+<td>163 (AP)</td>
+<td>278 (HVAP)</td>
+</tr>
+<tr>
+<td><strong>British</strong></td>
+<td>17-pdr</td>
+<td>76.2mm</td>
+<td>168 (APC)</td>
+<td>226 (APDS)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>German Advantage:</strong> KwK 43 combines high velocity with excellent penetration.
+<strong>Soviet Advantage:</strong> 122mm has devastating post-penetration effects.
+<strong>American Advantage:</strong> HVAP provides penetration parity with German 88mm.
+<strong>British Advantage:</strong> APDS technology gives best velocity and penetration per caliber.</p>
+<hr />
+<h2 id="how-accuracy-works-in-goh">How Accuracy Works in GoH</h2>
+<p>The game uses <code>radiusTable</code> to define accuracy spread at various distances:
+- Lower values = more accurate
+- Values represent the radius (in meters) where shots can land
+- At range 0, accuracy is perfect (spread = 0)
+- Spread increases with distance</p>
+<h3 id="example-rifle-accuracy-curve">Example: Rifle Accuracy Curve</h3>
+<pre><code>radiusTable {0 0.02} {40 r0} {80 r1} {120 r2} {150 r3} {180 6.0}
+</code></pre>
+<p>This means:
+- 0m: 0.02m spread (nearly perfect)
+- 40m: r0 spread (small)
+- 80m: r1 spread (medium-small)
+- 120m: r2 spread (medium)
+- 150m: r3 spread (large)
+- 180m+: 6.0m spread (very large, beyond effective range)</p>
+<h2 id="fcro-accuracy-philosophy">FCRO Accuracy Philosophy</h2>
+<p>FCRO generally improves accuracy by:
+1. Reducing spread values at each range bracket
+2. Extending the effective range before accuracy degrades
+3. Maintaining realistic relative accuracy between weapon types</p>
+<h2 id="spread-tolerance">Spread Tolerance</h2>
+<p><code>spreadTolerance</code> defines when AI will fire:
+- Value of 0.3 = AI fires when 30% of shots will hit
+- Higher values = AI fires earlier (less accurate)
+- Lower values = AI waits for better shots</p>
+<h2 id="ai-firing-timeout">AI Firing Timeout</h2>
+<p><code>aiDistanceSpreadTimeout</code> controls how long AI waits before firing:
+- <code>{distance% time}</code> format
+- Longer timeouts at range = more careful aiming
+- Shorter timeouts up close = faster reaction</p>
+<h2 id="damage-falloff">Damage Falloff</h2>
+<p>Many weapons use <code>FalloffMeter</code> to reduce damage at range:
+- Damage starts decreasing at this distance
+- <code>FalloffStrength</code> determines how quickly damage drops
+- Example: SMG at 70m may do only 50% damage</p>
+<h2 id="burst-accuracy">Burst Accuracy</h2>
+<p><code>burstAccuracy</code> defines how accuracy degrades during sustained fire:
+- First shot is most accurate
+- Subsequent shots have increasing penalties
+- Machine guns have lower penalties than rifles</p>
+<hr />
+<h1 id="weapon-file-locations">Weapon File Locations</h1>
+<p>All FCRO weapon overrides are located in:</p>
+<pre><code>resource/set/stuff/
+├── rifle/           # Rifles, snipers, AT rifles
+│   ├── .presets     # Base macros
+│   ├── sniper/      # Sniper rifles
+│   ├── ptr/         # Anti-tank rifles
+│   └── eng/         # British weapons
+├── smg/             # Submachine guns
+├── mgun/            # Machine guns
+├── pistol/          # Sidearms
+├── mortar/          # Mortars
+│   └── .presets     # Mortar range macros
+├── gun/             # Tank/artillery guns
+│   └── .presets     # Tank gun range macros
+├── bazooka/         # RPGs, bazookas
+├── flame/           # Flamethrowers
+├── reactive/        # Rockets, missiles
+├── grenade/         # Rifle grenades
+└── explosive/       # Mines, charges
+</code></pre>
+<hr />
+<h1 id="document-version-history">Document Version History</h1>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Date</th>
+<th>Changes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>2025-12-05</td>
+<td>Initial documentation - Infantry weapons, AT weapons, Flamethrowers, Mortars, Rockets, Tank guns</td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>2025-12-05</td>
+<td>Added complete accuracy curves, AI behavior parameters, flamethrower details, expanded tank gun section with Japanese/Finnish</td>
+</tr>
+<tr>
+<td>2.0</td>
+<td>2025-12-05</td>
+<td>Major expansion: Armor penetration tables, ammunition types, grenades/explosives, veterancy system, vehicle damage mechanics</td>
+</tr>
+<tr>
+<td>2.5</td>
+<td>2025-12-05</td>
+<td>Added Vision &amp; Spotting System (human/vehicle/aircraft detection), comprehensive Faction Weapon Comparisons (SMGs, rifles, MGs, snipers, AT weapons, tank guns)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><em>FCRO Complete Reference - Frontlines Combat Realism Overhaul</em>
+<em>For Gates of Hell: Ostfront and Their Finest Hour DLC</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
