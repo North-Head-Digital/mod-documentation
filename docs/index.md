@@ -58,7 +58,7 @@ New to FCRO? Start here:
 ### Tools
 
 - **[Quick Reference](quick-reference.md)** - Range summaries and faction comparisons
-- **[Changelog](../CHANGELOG.md)** - Version history and updates
+- **[Changelog](CHANGELOG.md)** - Version history and updates
 
 ## About This Documentation
 

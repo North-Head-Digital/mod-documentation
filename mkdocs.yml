@@ -61,7 +61,7 @@ nav:
     - Reference Tables: reference-tables.md
 
   - About:
-    - Changelog: ../CHANGELOG.md
+    - Changelog: CHANGELOG.md
 
 # Markdown extensions
 markdown_extensions:
