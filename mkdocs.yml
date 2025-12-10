@@ -1,4 +1,136 @@
-site_name: Mod Documentation
+site_name: FCRO Documentation
+site_description: Complete documentation for Frontlines Combat Realism Overhaul mod for Gates of Hell
+site_author: FCRO Development Team
+site_url: https://example.com  # Update with actual URL
+
+# Repository (update with actual repo URL)
+# repo_name: fcro-mod/documentation
+# repo_url: https://github.com/fcro-mod/documentation
+# edit_uri: edit/main/docs/
 
 theme:
   name: material
+  palette:
+    # Light mode
+    - scheme: default
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant      # Instant loading
+    - navigation.tracking     # Anchor tracking
+    - navigation.tabs         # Top-level tabs
+    - navigation.tabs.sticky  # Sticky tabs
+    - navigation.sections     # Section index pages
+    - navigation.expand       # Expand sections by default
+    - navigation.top          # Back to top button
+    - search.suggest          # Search suggestions
+    - search.highlight        # Highlight search terms
+    - search.share            # Share search results
+    - toc.follow              # TOC follows scroll
+    - toc.integrate           # Integrate TOC into sidebar
+  icon:
+    repo: fontawesome/brands/github
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+# Navigation structure
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Quick Reference: quick-reference.md
+
+  - Weapons:
+    - Infantry Weapons: infantry-weapons.md
+    - Anti-Tank Weapons: anti-tank-weapons.md
+    - Artillery & Mortars: artillery-and-mortars.md
+    - Vehicle Weapons: vehicle-weapons.md
+
+  - Systems & Mechanics:
+    - Game Mechanics: game-mechanics.md
+    - Reference Tables: reference-tables.md
+
+  - About:
+    - Changelog: ../CHANGELOG.md
+
+# Markdown extensions
+markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Plugins
+plugins:
+  - search:
+      lang: en
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  # - minify:  # Uncomment to minify HTML in production
+  #     minify_html: true
+
+# Extra CSS (if needed)
+# extra_css:
+#   - stylesheets/extra.css
+
+# Extra JavaScript (if needed)
+# extra_javascript:
+#   - javascripts/extra.js
+
+# Copyright
+copyright: Copyright &copy; 2025 FCRO Development Team
+
+# Extra configuration
+extra:
+  version:
+    provider: mike
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/fcro-mod  # Update with actual link
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/fcro  # Update with actual link
